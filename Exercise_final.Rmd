@@ -1,0 +1,198 @@
+---
+title: "Excercise"
+author: "TerrenceN"
+date: "September 10, 2019"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## Excerise 2.1
+```{r}
+((6*2.3)+42)/(3^(4.2-3.62))
+-4^2+2
+sqrt(mean(25.2+15+16.44+15.3+18.6))
+exp(0.3)
+log(x=1.349859)
+4.235463e-09
+```
+## Excercise 2.2
+```{r}
+x <- 3^2*4^(1/8)
+x
+
+x <- x/2.33
+x
+a <- -8.2
+a
+b <- a*10^-13
+b
+x * b
+
+```
+## Exercise 2.3
+```{r}
+myseq <- seq (from=5,to=-11,by=-0.3)
+myseq
+
+myseq <- seq(from=-11,to=5,by=0.3)
+myseq
+
+terry <- rep(x=c(-1,3,-5,7,-9),times=2, each=10)
+terry
+
+sorterry <- sort(x=terry,decreasing=TRUE)
+sorterry
+
+myseqa <-seq(from=6,to=12)
+myseqa
+
+myseq1 <-rep(x=c (5.3), times=3)
+myseq1
+b <- (x=-3)
+b
+
+myseq2 <- seq(from=102,to=(length((sorterry))),length.out = 9)
+myseq2
+
+finalseq <- c(myseqa,myseq1,b,myseq2)
+finalseq
+
+length (finalseq)
+```
+## Exercise 2.4
+```{r}
+seqa <- seq(from=3, to=6, length.out = 5)
+seqa
+seqb <- rep (x=c (2,5.2,-33), times= 3)
+seqb
+y <- ((7/42)+2)
+y
+finalvec <- (x=c(seqa,seqb,y))
+finalvec
+store <- finalvec[1]
+store
+store2 <- finalvec[15]
+store2
+newstore <- (x=c(store,store2))
+newstore
+nostore2<- finalvec [-1][-14]
+nostore2
+finalvec2 <- c(newstore,nostore2)
+finalvec2
+finalvec <- sort(x=c(finalvec, decreasing =FALSE))
+finalvec
+colonfinalvec <- finalvec[13:1]
+colonfinalvec
+w <- rep(nostore2[3], times=3)
+w
+e <- rep(nostore2[6], times=4)
+e
+f <- rep(nostore2[10], times=1)
+f
+gvector <-c(w,e,f)
+gvector
+copyfinalvec <- finalvec
+copyfinalvec
+copyfinalvec [c(1,5,6,7,13)] <- c(99,98,97,96,95)
+copyfinalvec
+```
+## Exercise 2.5
+```{r}
+tq<- c(2,0.5,1,2,0.5,1,2,0.5,1)
+tq
+tq1 <- tq[c(1:9)] <- c(1,1,1,1,1,1,1,1,1)
+tq1
+celcuius <- c(5/9*(45-32),5/9*(77-32),5/9*(20-32),5/9*(19-32),5/9*(101-32),5/9*(120-32),5/9*(212-32))
+celcuius
+t <- c(2,4,6)*1
+t
+t2 <- c(1,2)*2
+t2
+t3 <- c(t2,t)
+t3
+t3 [c(2,3,4,5)]<- c(-0.1,-100,-0.1,-100)
+t3
+
+```
+## Exercise 3.1
+```{r}
+matrixa <- matrix(data=c(4.3, 3.1, 8.2, 8.2, 3.2, 0.9, 1.6, 6.5), nrow =4, ncol =2)
+matrixa
+matrixb <- matrixa [-1,]
+matrixb
+dim(matrixb)
+matrixa[,2] <- c(0.9,1.6,3.2,6.5)
+matrixa
+matrixc <- matrixa [-4,-1]
+matrixc
+matrixd <- matrix (data=c(matrixc))
+matrixd
+matrixq <- matrixa[c(3,4),1:2]
+matrixq
+
+```
+## Exercise 3.2
+```{r}
+b <- matrix (data=c(10,30,50,20,40,60), nrow =3, ncol =2)
+b
+a <- matrix (data=c(1,2,7,2,4,6), nrow =3, ncol =2)
+a
+c <- a-b
+c
+d <- 2/7*c
+d
+A1 <- matrix (data=c(1,2,7))
+A1
+B1 <- matrix (data=c(3,4,8))
+B1
+C1 <- A1*B1
+C1
+BT <- t(B1)
+BT
+F <-matrix(data=c(2,0,0,0,0,3,0,0,0,0,5,0,0,0,0,-1), nrow= 4, ncol = 4)
+F
+F1 <- solve(F)
+F1
+H <- diag(4)
+H
+ALLZERO <- F1*F-H
+ALLZERO
+dim(ALLZERO)
+```
+## Exercise 3.3
+```{r}
+TAR <- seq(from=4.8, to=0.1, length.out=8)
+TAR
+TAR3 <- matrix(data=c(4.8000000,4.1285714,3.4571429,2.7857143,2.1142857,1.4428571,0.7714286,0.1000000), nrow =4, ncol =2)
+TAR3
+TAR4 <- array (data=(TAR3),dim=c(4,2,6))
+TAR4
+TAR5 <-TAR4[4,2,]
+TAR5
+TAR6 <-TAR4[1,2,]
+TAR6
+TAR7 <- matrix(data=c(TAR5,TAR6))
+TAR7
+TAR10 <- array(data=rep(TAR7,times=4))
+TAR10
+TAR11 <- array(TAR10,dim=c(2,2,2,3))
+TAR11
+TAR12 <- array (data=(TAR3),dim=c(4,2,5))
+TAR12
+TAR12[2,2,1] <- -99
+TAR12[4,2,1] <- -99
+TAR12[2,2,3] <- -99
+TAR12[4,2,3] <- -99
+TAR12[2,2,5] <- -99
+TAR12[4,2,5] <- -99
+TAR12
+```
+
+
+
+
+
+
+
+
