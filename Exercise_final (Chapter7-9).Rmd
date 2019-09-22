@@ -1,0 +1,149 @@
+---
+title: "Exercise_final (Chapter(7-9)"
+author: "TerrenceN"
+date: "September 21, 2019"
+output: html_document
+---
+
+## Excercise 7.1
+
+```{r}
+plot(x = -3:3, y = 7:13, type = "n", main = "", xlab = "", ylab = "")
+
+abline(h = c(7, 13), col = "blue", lty = 2, lwd = 2)
+abline(v = c(-3, 3), col = "blue", lty = 2, lwd = 2)
+
+text(x = 0, y = 10, labels = "somthing\nprofound")
+
+arrows(x0 = -2.5, y0 = 12.5, x1 = -1, y1 = 10.5)
+arrows(x0 = -2.5, y0 = 10,   x1 = -1, y1 = 10)
+arrows(x0 = -2.5, y0 = 7.5,  x1 = -1, y1 = 9.5)
+
+arrows(x0 = 2.5, y0 = 12.5, x1 = 1, y1 = 10.5)
+arrows(x0 = 2.5, y0 = 10,   x1 = 1, y1 = 10)
+arrows(x0 = 2.5, y0 = 7.5,  x1 = 1, y1 = 9.5)
+
+terry<- data.frame(
+  weight = c(55,85,75,42,93,63,58,75,89,67),
+  height = c(161,185,174,154,188,178,170,167,181,178),
+  sex = factor(c("Female","Male","Male","Female","Male","Male","Female","Male","Male","Female"))
+)
+
+plot(terry$weight, terry$height, type="n",
+     xlab="Weights (kg)", ylab="Heights (cm)",
+     main="Graph 1 showing Height measured against weight- Sample size -10 people"
+)
+points(terry$weight[terry$sex == "Male"], terry$height[terry$sex == "Male"],
+       pch = 4, col = "red"
+)
+points(terry$weight[terry$sex == "Female"], terry$height[terry$sex == "Female"],
+       pch = 2, col = "black"
+)
+legend("topleft", legend=c("Male","Female"),
+       pch=c(4, 2), col=c("red", "black")
+)
+```
+
+## Excercise 7.2
+```{r}
+library("ggplot2")
+
+graph1 <- qplot(terry$weight, terry$height,
+      xlab = "Weights (kg)", ylab = "Heights (cm)",
+      main = "Graph 2 showing Height measured against weight- Sample size -10 people",
+      color = terry$sex, shape =terry$sex
+)
+graph2<- ggplot(data = terry, mapping = aes(weight, height, color = sex)) +
+  geom_point(size= 7)+ scale_color_manual(breaks = c("Male", "Female"),values = c("red", "yellow"))
+graph1
+graph2
+```
+
+## Exercise 8.1
+```{r}
+data ("quakes")
+write.table(x = quakes[quakes$mag >= 5,],file = "C:/R- Studio/Finacials/q5.txt", sep = "!", row.names = FALSE)
+q5dframe <- read.table(file = "C:/R- Studio/Finacials/q5.txt", sep = "!", header = TRUE)
+q5dframe
+
+library("car")
+data("Duncan")
+write.table(x = Duncan,file = "C:/R- Studio/Finacials/Duncan.txt", sep = "!", row.names = FALSE)
+moreeighty <-  read.table(file = "C:/R- Studio/Finacials/Duncan.txt", sep = "!", header = TRUE)
+moreeighty
+
+library("ggplot2")
+
+ggplot(data = moreeighty, mapping = aes(education, income),main ="Graph showing income against education") +
+  geom_point(size= 3) + scale_color_manual(breaks = c(">=80", "=<80"),values = c("black", "white")+
+  xlim(0, 100) +
+  ggsave(filename = "C:/R- Studio/Finacials/car_duncan.png"))
+##dev.off
+tex <- list(quakes,q5dframe,Duncan)
+tex
+#(i) Writing Exercise8-1.txt list
+#dput(file="C:/R- Studio/Finacials/Duncan.txt")
+#(ii) Reading Exercise8_1.txt
+list.of.dataframes <- dget("C:/R- Studio/Finacials/Duncan.txt")
+list.of.dataframes
+```
+## Exercise 8.2
+```{r}
+
+
+## Exercise 9.1
+```{r}
+ls("package:methods")[1:20]
+length(ls("package:methods"))
+
+environment(read.table) ##utils
+environment(data) ## Null
+environment(matrix) ## base
+environment(jpeg) ## grDevices
+
+any(ls("package:graphics") == "smoothScatter")
+```
+
+## Excercise 9.2
+```{r}
+args(seq)
+boz <- seq(-4,4,0.2)
+boz
+
+array(8:1, dim = c(2, 2, 2)) # using partital and positional argument stlye 
+rep(1:2, 3) # positional arg stlye
+seq(from = 10, to = 8, length = 5) # partital argument stlye
+sort(decreasing = T, x = c(2, 1, 1, 2, 0.3, 3, 1.3)) # exact argument stlye
+which(matrix(c(T, F, T, T), 2, 2)) # positional
+which(matrix(c(T, F, T, T), 2, 2), a = T) #positional and mixed argument stlye
+
+seeargs<- args(plot.default)
+seeargs
+
+plot.default(type = "p", pch = NULL, xlab = "years", ylab = "salary",
+             lwd = NULL, lty = NULL, col = NULL,
+             x = c(1, 5), y = c(10, 100))
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
