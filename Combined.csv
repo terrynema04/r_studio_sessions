@@ -1,0 +1,372 @@
+,Country,Description,Year.x,Average.Annual.Rain,NA.,Region,Sub.Region,Category,Year.y,Count,Rate,Percent.of.firms.paying.for.security,If.the.establishment.pays.for.security..average.security.costs....of.annual.sales.,Percent.of.firms.experiencing.losses.due.to.theft.and.vandalism,If.there.were.losses..average.losses.due.to.theft.and.vandalism....of.annual.sales.,Products.shipped.to.supply.domestic.markets.that.were.lost.due.to.theft....of.product.value..,Percent.of.firms.identifying.crime..theft.and.disorder.as.a.major.constraint
+1,Albania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.69,E,Europe,Southern Europe,4.Professional Judges or Magistrates (Total),2014,361,0.00361,53.9,4.2,5.2,1.3,0.3,5.2
+2,Albania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.69,E,Europe,Southern Europe,11.Prison Personnel Male,2014,3124,NA,53.9,4.2,5.2,1.3,0.3,5.2
+3,Albania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.69,E,Europe,Southern Europe,2.Police Personnel Male,2014,8607,NA,53.9,4.2,5.2,1.3,0.3,5.2
+4,Albania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.69,E,Europe,Southern Europe,3.Police Personnel Female,2014,1018,NA,53.9,4.2,5.2,1.3,0.3,5.2
+5,Albania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.69,E,Europe,Southern Europe,12.Prison Personnel Female,2014,555,NA,53.9,4.2,5.2,1.3,0.3,5.2
+6,Albania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.69,E,Europe,Southern Europe,6.Professional Judges or Magistrates Female,2014,157,NA,53.9,4.2,5.2,1.3,0.3,5.2
+7,Albania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.69,E,Europe,Southern Europe,5.Professional Judges or Magistrates Male,2014,204,NA,53.9,4.2,5.2,1.3,0.3,5.2
+8,Albania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.69,E,Europe,Southern Europe,1.Police Personnel (Total),2014,9625,0.09625,53.9,4.2,5.2,1.3,0.3,5.2
+9,Argentina,Long-term average annual precipitation in volume (10^9 m3/year),2014,1643,NA,Americas,South America,1.Police Personnel (Total),2014,341627,3.41627,61.9,1.4,14.5,1.8,0.2,14
+10,Argentina,Long-term average annual precipitation in volume (10^9 m3/year),2014,1643,NA,Americas,South America,6.Professional Judges or Magistrates Female,2014,604,NA,61.9,1.4,14.5,1.8,0.2,14
+11,Argentina,Long-term average annual precipitation in volume (10^9 m3/year),2014,1643,NA,Americas,South America,12.Prison Personnel Female,2014,11245,NA,61.9,1.4,14.5,1.8,0.2,14
+12,Argentina,Long-term average annual precipitation in volume (10^9 m3/year),2014,1643,NA,Americas,South America,5.Professional Judges or Magistrates Male,2014,1420,NA,61.9,1.4,14.5,1.8,0.2,14
+13,Argentina,Long-term average annual precipitation in volume (10^9 m3/year),2014,1643,NA,Americas,South America,4.Professional Judges or Magistrates (Total),2014,2024,0.02024,61.9,1.4,14.5,1.8,0.2,14
+14,Argentina,Long-term average annual precipitation in volume (10^9 m3/year),2014,1643,NA,Americas,South America,11.Prison Personnel Male,2014,30695,NA,61.9,1.4,14.5,1.8,0.2,14
+15,Armenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,16.71,K,Asia,Western Asia,6.Professional Judges or Magistrates Female,2014,53,NA,44.7,2.4,3.9,3.6,0,3
+16,Armenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,16.71,K,Asia,Western Asia,12.Prison Personnel Female,2014,40,NA,44.7,2.4,3.9,3.6,0,3
+17,Armenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,16.71,K,Asia,Western Asia,4.Professional Judges or Magistrates (Total),2014,226,0.00226,44.7,2.4,3.9,3.6,0,3
+18,Armenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,16.71,K,Asia,Western Asia,5.Professional Judges or Magistrates Male,2014,173,NA,44.7,2.4,3.9,3.6,0,3
+19,Armenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,16.71,K,Asia,Western Asia,11.Prison Personnel Male,2014,2000,NA,44.7,2.4,3.9,3.6,0,3
+20,Azerbaijan,Long-term average annual precipitation in volume (10^9 m3/year),2014,38.71,K,Asia,Western Asia,6.Professional Judges or Magistrates Female,2014,63,NA,45.4,3.6,1.8,2.3,0,0.3
+21,Azerbaijan,Long-term average annual precipitation in volume (10^9 m3/year),2014,38.71,K,Asia,Western Asia,4.Professional Judges or Magistrates (Total),2014,519,0.00519,45.4,3.6,1.8,2.3,0,0.3
+22,Azerbaijan,Long-term average annual precipitation in volume (10^9 m3/year),2014,38.71,K,Asia,Western Asia,5.Professional Judges or Magistrates Male,2014,456,NA,45.4,3.6,1.8,2.3,0,0.3
+23,Barbados,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.6115,E,Americas,Caribbean,12.Prison Personnel Female,2014,152,NA,47.9,1.2,8.5,0.6,n.a.,1.2
+24,Barbados,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.6115,E,Americas,Caribbean,11.Prison Personnel Male,2014,260,NA,47.9,1.2,8.5,0.6,n.a.,1.2
+25,Barbados,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.6115,E,Americas,Caribbean,5.Professional Judges or Magistrates Male,2014,11,NA,47.9,1.2,8.5,0.6,n.a.,1.2
+26,Barbados,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.6115,E,Americas,Caribbean,3.Police Personnel Female,2014,235,NA,47.9,1.2,8.5,0.6,n.a.,1.2
+27,Barbados,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.6115,E,Americas,Caribbean,2.Police Personnel Male,2014,1193,NA,47.9,1.2,8.5,0.6,n.a.,1.2
+28,Barbados,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.6115,E,Americas,Caribbean,4.Professional Judges or Magistrates (Total),2014,24,0.00024,47.9,1.2,8.5,0.6,n.a.,1.2
+29,Barbados,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.6115,E,Americas,Caribbean,1.Police Personnel (Total),2014,1428,0.01428,47.9,1.2,8.5,0.6,n.a.,1.2
+30,Barbados,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.6115,E,Americas,Caribbean,6.Professional Judges or Magistrates Female,2014,13,NA,47.9,1.2,8.5,0.6,n.a.,1.2
+31,Belarus,Long-term average annual precipitation in volume (10^9 m3/year),2014,128.3,E,Europe,Eastern Europe,4.Professional Judges or Magistrates (Total),2014,1239,0.01239,59.5,1.5,10.2,2,0,3
+32,Belize,Long-term average annual precipitation in volume (10^9 m3/year),2014,39.16,E,Americas,Central America,6.Professional Judges or Magistrates Female,2014,4,NA,70.4,1.3,7.6,1,n.a.,52.3
+33,Belize,Long-term average annual precipitation in volume (10^9 m3/year),2014,39.16,E,Americas,Central America,4.Professional Judges or Magistrates (Total),2014,10,1.00E-04,70.4,1.3,7.6,1,n.a.,52.3
+34,Belize,Long-term average annual precipitation in volume (10^9 m3/year),2014,39.16,E,Americas,Central America,12.Prison Personnel Female,2014,37,NA,70.4,1.3,7.6,1,n.a.,52.3
+35,Belize,Long-term average annual precipitation in volume (10^9 m3/year),2014,39.16,E,Americas,Central America,2.Police Personnel Male,2014,162,NA,70.4,1.3,7.6,1,n.a.,52.3
+36,Belize,Long-term average annual precipitation in volume (10^9 m3/year),2014,39.16,E,Americas,Central America,1.Police Personnel (Total),2014,1726,0.01726,70.4,1.3,7.6,1,n.a.,52.3
+37,Belize,Long-term average annual precipitation in volume (10^9 m3/year),2014,39.16,E,Americas,Central America,3.Police Personnel Female,2014,264,NA,70.4,1.3,7.6,1,n.a.,52.3
+38,Belize,Long-term average annual precipitation in volume (10^9 m3/year),2014,39.16,E,Americas,Central America,11.Prison Personnel Male,2014,255,NA,70.4,1.3,7.6,1,n.a.,52.3
+39,Belize,Long-term average annual precipitation in volume (10^9 m3/year),2014,39.16,E,Americas,Central America,5.Professional Judges or Magistrates Male,2014,6,NA,70.4,1.3,7.6,1,n.a.,52.3
+40,Bosnia and Herzegovina,Long-term average annual precipitation in volume (10^9 m3/year),2014,52.64,E,Europe,Southern Europe,3.Police Personnel Female,2014,1151,NA,41.2,1,13.7,2.5,0.3,7.2
+41,Bosnia and Herzegovina,Long-term average annual precipitation in volume (10^9 m3/year),2014,52.64,E,Europe,Southern Europe,2.Police Personnel Male,2014,14708,NA,41.2,1,13.7,2.5,0.3,7.2
+42,Bosnia and Herzegovina,Long-term average annual precipitation in volume (10^9 m3/year),2014,52.64,E,Europe,Southern Europe,11.Prison Personnel Male,2014,1547,NA,41.2,1,13.7,2.5,0.3,7.2
+43,Bosnia and Herzegovina,Long-term average annual precipitation in volume (10^9 m3/year),2014,52.64,E,Europe,Southern Europe,4.Professional Judges or Magistrates (Total),2014,1063,0.01063,41.2,1,13.7,2.5,0.3,7.2
+44,Bosnia and Herzegovina,Long-term average annual precipitation in volume (10^9 m3/year),2014,52.64,E,Europe,Southern Europe,5.Professional Judges or Magistrates Male,2014,402,NA,41.2,1,13.7,2.5,0.3,7.2
+45,Bosnia and Herzegovina,Long-term average annual precipitation in volume (10^9 m3/year),2014,52.64,E,Europe,Southern Europe,6.Professional Judges or Magistrates Female,2014,661,NA,41.2,1,13.7,2.5,0.3,7.2
+46,Bosnia and Herzegovina,Long-term average annual precipitation in volume (10^9 m3/year),2014,52.64,E,Europe,Southern Europe,12.Prison Personnel Female,2014,297,NA,41.2,1,13.7,2.5,0.3,7.2
+47,Bosnia and Herzegovina,Long-term average annual precipitation in volume (10^9 m3/year),2014,52.64,E,Europe,Southern Europe,1.Police Personnel (Total),2014,15859,0.15859,41.2,1,13.7,2.5,0.3,7.2
+48,Botswana,Long-term average annual precipitation in volume (10^9 m3/year),2014,242,E,Africa,Southern Africa,12.Prison Personnel Female,2014,276,NA,85.4,1.4,50.7,3.1,0.8,22.6
+49,Botswana,Long-term average annual precipitation in volume (10^9 m3/year),2014,242,E,Africa,Southern Africa,11.Prison Personnel Male,2014,1413,NA,85.4,1.4,50.7,3.1,0.8,22.6
+50,Brazil,Long-term average annual precipitation in volume (10^9 m3/year),2014,14995,NA,Americas,South America,12.Prison Personnel Female,2014,20124,NA,72.6,2.4,38.3,6.9,0.5,68.6
+51,Brazil,Long-term average annual precipitation in volume (10^9 m3/year),2014,14995,NA,Americas,South America,11.Prison Personnel Male,2014,47957,NA,72.6,2.4,38.3,6.9,0.5,68.6
+52,Bulgaria,Long-term average annual precipitation in volume (10^9 m3/year),2014,67.49,E,Europe,Eastern Europe,7.Prosecution Personnel (Total),2014,1948,0.01948,75.7,1.3,21.4,3.4,0.1,8.3
+53,Bulgaria,Long-term average annual precipitation in volume (10^9 m3/year),2014,67.49,E,Europe,Eastern Europe,1.Police Personnel (Total),2014,28171,0.28171,75.7,1.3,21.4,3.4,0.1,8.3
+54,Bulgaria,Long-term average annual precipitation in volume (10^9 m3/year),2014,67.49,E,Europe,Eastern Europe,4.Professional Judges or Magistrates (Total),2014,2201,0.02201,75.7,1.3,21.4,3.4,0.1,8.3
+55,Burundi,Long-term average annual precipitation in volume (10^9 m3/year),2014,35.46,E,Africa,Eastern Africa,1.Police Personnel (Total),2014,16173,0.16173,72,1.6,11.3,3.8,0.1,8
+56,Burundi,Long-term average annual precipitation in volume (10^9 m3/year),2014,35.46,E,Africa,Eastern Africa,3.Police Personnel Female,2014,866,NA,72,1.6,11.3,3.8,0.1,8
+57,Burundi,Long-term average annual precipitation in volume (10^9 m3/year),2014,35.46,E,Africa,Eastern Africa,2.Police Personnel Male,2014,15307,NA,72,1.6,11.3,3.8,0.1,8
+58,Burundi,Long-term average annual precipitation in volume (10^9 m3/year),2014,35.46,E,Africa,Eastern Africa,11.Prison Personnel Male,2014,85,NA,72,1.6,11.3,3.8,0.1,8
+59,Burundi,Long-term average annual precipitation in volume (10^9 m3/year),2014,35.46,E,Africa,Eastern Africa,4.Professional Judges or Magistrates (Total),2014,689,0.00689,72,1.6,11.3,3.8,0.1,8
+60,Burundi,Long-term average annual precipitation in volume (10^9 m3/year),2014,35.46,E,Africa,Eastern Africa,12.Prison Personnel Female,2014,99,NA,72,1.6,11.3,3.8,0.1,8
+61,Cabo Verde,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.9188,E,Africa,Western Africa,1.Police Personnel (Total),2014,1764,0.01764,60.2,3.2,43.2,3.9,n.a.,62.3
+62,Cabo Verde,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.9188,E,Africa,Western Africa,5.Professional Judges or Magistrates Male,2014,37,NA,60.2,3.2,43.2,3.9,n.a.,62.3
+63,Cabo Verde,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.9188,E,Africa,Western Africa,4.Professional Judges or Magistrates (Total),2014,57,0.00057,60.2,3.2,43.2,3.9,n.a.,62.3
+64,Cabo Verde,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.9188,E,Africa,Western Africa,6.Professional Judges or Magistrates Female,2014,20,NA,60.2,3.2,43.2,3.9,n.a.,62.3
+65,Cameroon,Long-term average annual precipitation in volume (10^9 m3/year),2014,762.6,E,Africa,Middle Africa,11.Prison Personnel Male,2014,2303,NA,61,5.7,34,8.9,2.8,28.3
+66,Cameroon,Long-term average annual precipitation in volume (10^9 m3/year),2014,762.6,E,Africa,Middle Africa,12.Prison Personnel Female,2014,981,NA,61,5.7,34,8.9,2.8,28.3
+67,Chile,Long-term average annual precipitation in volume (10^9 m3/year),2014,1151,NA,Americas,South America,1.Police Personnel (Total),2014,49450,0.4945,76.5,1.5,47.7,1.7,0.5,37.5
+68,Chile,Long-term average annual precipitation in volume (10^9 m3/year),2014,1151,NA,Americas,South America,5.Professional Judges or Magistrates Male,2014,455,NA,76.5,1.5,47.7,1.7,0.5,37.5
+69,Chile,Long-term average annual precipitation in volume (10^9 m3/year),2014,1151,NA,Americas,South America,3.Police Personnel Female,2014,7027,NA,76.5,1.5,47.7,1.7,0.5,37.5
+70,Chile,Long-term average annual precipitation in volume (10^9 m3/year),2014,1151,NA,Americas,South America,12.Prison Personnel Female,2014,5796,NA,76.5,1.5,47.7,1.7,0.5,37.5
+71,Chile,Long-term average annual precipitation in volume (10^9 m3/year),2014,1151,NA,Americas,South America,11.Prison Personnel Male,2014,14524,NA,76.5,1.5,47.7,1.7,0.5,37.5
+72,Chile,Long-term average annual precipitation in volume (10^9 m3/year),2014,1151,NA,Americas,South America,4.Professional Judges or Magistrates (Total),2014,916,0.00916,76.5,1.5,47.7,1.7,0.5,37.5
+73,Chile,Long-term average annual precipitation in volume (10^9 m3/year),2014,1151,NA,Americas,South America,6.Professional Judges or Magistrates Female,2014,461,NA,76.5,1.5,47.7,1.7,0.5,37.5
+74,Chile,Long-term average annual precipitation in volume (10^9 m3/year),2014,1151,NA,Americas,South America,2.Police Personnel Male,2014,42432,NA,76.5,1.5,47.7,1.7,0.5,37.5
+75,China,Long-term average annual precipitation in volume (10^9 m3/year),2014,6192,E,Asia,Eastern Asia,5.Professional Judges or Magistrates Male,2014,140108,NA,66,1.1,3.9,0.5,0.1,0.8
+76,China,Long-term average annual precipitation in volume (10^9 m3/year),2014,6192,E,Asia,Eastern Asia,4.Professional Judges or Magistrates (Total),2014,201715,2.01715,66,1.1,3.9,0.5,0.1,0.8
+77,China,Long-term average annual precipitation in volume (10^9 m3/year),2014,6192,E,Asia,Eastern Asia,6.Professional Judges or Magistrates Female,2014,61607,NA,66,1.1,3.9,0.5,0.1,0.8
+78,Colombia,Long-term average annual precipitation in volume (10^9 m3/year),2014,3699,NA,Americas,South America,2.Police Personnel Male,2014,137696,NA,77.1,1.7,21.2,1.9,0.3,26
+79,Colombia,Long-term average annual precipitation in volume (10^9 m3/year),2014,3699,NA,Americas,South America,12.Prison Personnel Female,2014,3235,NA,77.1,1.7,21.2,1.9,0.3,26
+80,Colombia,Long-term average annual precipitation in volume (10^9 m3/year),2014,3699,NA,Americas,South America,3.Police Personnel Female,2014,11306,NA,77.1,1.7,21.2,1.9,0.3,26
+81,Colombia,Long-term average annual precipitation in volume (10^9 m3/year),2014,3699,NA,Americas,South America,11.Prison Personnel Male,2014,11343,NA,77.1,1.7,21.2,1.9,0.3,26
+82,Colombia,Long-term average annual precipitation in volume (10^9 m3/year),2014,3699,NA,Americas,South America,4.Professional Judges or Magistrates (Total),2014,4822,0.04822,77.1,1.7,21.2,1.9,0.3,26
+83,Colombia,Long-term average annual precipitation in volume (10^9 m3/year),2014,3699,NA,Americas,South America,1.Police Personnel (Total),2014,149002,1.49002,77.1,1.7,21.2,1.9,0.3,26
+84,Costa Rica,Long-term average annual precipitation in volume (10^9 m3/year),2014,149.5,E,Americas,Central America,5.Professional Judges or Magistrates Male,2014,621,NA,74.6,2,32.8,1.3,0.1,21.3
+85,Costa Rica,Long-term average annual precipitation in volume (10^9 m3/year),2014,149.5,E,Americas,Central America,6.Professional Judges or Magistrates Female,2014,667,NA,74.6,2,32.8,1.3,0.1,21.3
+86,Costa Rica,Long-term average annual precipitation in volume (10^9 m3/year),2014,149.5,E,Americas,Central America,4.Professional Judges or Magistrates (Total),2014,1288,0.01288,74.6,2,32.8,1.3,0.1,21.3
+87,Croatia,Long-term average annual precipitation in volume (10^9 m3/year),2014,62.98,K,Europe,Southern Europe,4.Professional Judges or Magistrates (Total),2014,1903,0.01903,27.7,0.8,22.5,1.7,0.3,8
+88,Croatia,Long-term average annual precipitation in volume (10^9 m3/year),2014,62.98,K,Europe,Southern Europe,11.Prison Personnel Male,2014,2050,NA,27.7,0.8,22.5,1.7,0.3,8
+89,Croatia,Long-term average annual precipitation in volume (10^9 m3/year),2014,62.98,K,Europe,Southern Europe,1.Police Personnel (Total),2014,20562,0.20562,27.7,0.8,22.5,1.7,0.3,8
+90,Croatia,Long-term average annual precipitation in volume (10^9 m3/year),2014,62.98,K,Europe,Southern Europe,12.Prison Personnel Female,2014,735,NA,27.7,0.8,22.5,1.7,0.3,8
+91,Croatia,Long-term average annual precipitation in volume (10^9 m3/year),2014,62.98,K,Europe,Southern Europe,2.Police Personnel Male,2014,16981,NA,27.7,0.8,22.5,1.7,0.3,8
+92,Croatia,Long-term average annual precipitation in volume (10^9 m3/year),2014,62.98,K,Europe,Southern Europe,5.Professional Judges or Magistrates Male,2014,584,NA,27.7,0.8,22.5,1.7,0.3,8
+93,Croatia,Long-term average annual precipitation in volume (10^9 m3/year),2014,62.98,K,Europe,Southern Europe,6.Professional Judges or Magistrates Female,2014,1319,NA,27.7,0.8,22.5,1.7,0.3,8
+94,Croatia,Long-term average annual precipitation in volume (10^9 m3/year),2014,62.98,K,Europe,Southern Europe,3.Police Personnel Female,2014,3581,NA,27.7,0.8,22.5,1.7,0.3,8
+95,Dominican Republic,Long-term average annual precipitation in volume (10^9 m3/year),2014,68.62,E,Americas,Caribbean,2.Police Personnel Male,2014,30462,NA,47.7,2.9,16.7,6.6,0.1,32.4
+96,Dominican Republic,Long-term average annual precipitation in volume (10^9 m3/year),2014,68.62,E,Americas,Caribbean,3.Police Personnel Female,2014,4715,NA,47.7,2.9,16.7,6.6,0.1,32.4
+97,Dominican Republic,Long-term average annual precipitation in volume (10^9 m3/year),2014,68.62,E,Americas,Caribbean,1.Police Personnel (Total),2014,35177,0.35177,47.7,2.9,16.7,6.6,0.1,32.4
+98,Ecuador,Long-term average annual precipitation in volume (10^9 m3/year),2014,583,K,Americas,South America,1.Police Personnel (Total),2014,43593,0.43593,68.2,1.8,17.3,2.3,0.2,18
+99,Ecuador,Long-term average annual precipitation in volume (10^9 m3/year),2014,583,K,Americas,South America,3.Police Personnel Female,2014,4402,NA,68.2,1.8,17.3,2.3,0.2,18
+100,Ecuador,Long-term average annual precipitation in volume (10^9 m3/year),2014,583,K,Americas,South America,2.Police Personnel Male,2014,39191,NA,68.2,1.8,17.3,2.3,0.2,18
+101,El Salvador,Long-term average annual precipitation in volume (10^9 m3/year),2014,37.54,K,Americas,Central America,3.Police Personnel Female,2014,2627,NA,80.2,4.1,29.1,3.3,0.8,48.5
+102,El Salvador,Long-term average annual precipitation in volume (10^9 m3/year),2014,37.54,K,Americas,Central America,5.Professional Judges or Magistrates Male,2014,359,NA,80.2,4.1,29.1,3.3,0.8,48.5
+103,El Salvador,Long-term average annual precipitation in volume (10^9 m3/year),2014,37.54,K,Americas,Central America,6.Professional Judges or Magistrates Female,2014,310,NA,80.2,4.1,29.1,3.3,0.8,48.5
+104,El Salvador,Long-term average annual precipitation in volume (10^9 m3/year),2014,37.54,K,Americas,Central America,4.Professional Judges or Magistrates (Total),2014,669,0.00669,80.2,4.1,29.1,3.3,0.8,48.5
+105,El Salvador,Long-term average annual precipitation in volume (10^9 m3/year),2014,37.54,K,Americas,Central America,12.Prison Personnel Female,2014,525,NA,80.2,4.1,29.1,3.3,0.8,48.5
+106,El Salvador,Long-term average annual precipitation in volume (10^9 m3/year),2014,37.54,K,Americas,Central America,11.Prison Personnel Male,2014,1578,NA,80.2,4.1,29.1,3.3,0.8,48.5
+107,El Salvador,Long-term average annual precipitation in volume (10^9 m3/year),2014,37.54,K,Americas,Central America,1.Police Personnel (Total),2014,22995,0.22995,80.2,4.1,29.1,3.3,0.8,48.5
+108,El Salvador,Long-term average annual precipitation in volume (10^9 m3/year),2014,37.54,K,Americas,Central America,2.Police Personnel Male,2014,20368,NA,80.2,4.1,29.1,3.3,0.8,48.5
+109,Estonia,Long-term average annual precipitation in volume (10^9 m3/year),2014,28.38,E,Europe,Northern Europe,3.Police Personnel Female,2014,1413,NA,69.2,0.7,25.2,1,0,2.4
+110,Estonia,Long-term average annual precipitation in volume (10^9 m3/year),2014,28.38,E,Europe,Northern Europe,4.Professional Judges or Magistrates (Total),2014,230,0.0023,69.2,0.7,25.2,1,0,2.4
+111,Estonia,Long-term average annual precipitation in volume (10^9 m3/year),2014,28.38,E,Europe,Northern Europe,7.Prosecution Personnel (Total),2014,167,0.00167,69.2,0.7,25.2,1,0,2.4
+112,Estonia,Long-term average annual precipitation in volume (10^9 m3/year),2014,28.38,E,Europe,Northern Europe,9.Prosecution Personnel Female,2014,118,NA,69.2,0.7,25.2,1,0,2.4
+113,Estonia,Long-term average annual precipitation in volume (10^9 m3/year),2014,28.38,E,Europe,Northern Europe,2.Police Personnel Male,2014,2676,NA,69.2,0.7,25.2,1,0,2.4
+114,Estonia,Long-term average annual precipitation in volume (10^9 m3/year),2014,28.38,E,Europe,Northern Europe,10.Prison Personnel (Total),2014,1656,0.01656,69.2,0.7,25.2,1,0,2.4
+115,Estonia,Long-term average annual precipitation in volume (10^9 m3/year),2014,28.38,E,Europe,Northern Europe,8.Prosecution Personnel Male,2014,49,NA,69.2,0.7,25.2,1,0,2.4
+116,Estonia,Long-term average annual precipitation in volume (10^9 m3/year),2014,28.38,E,Europe,Northern Europe,1.Police Personnel (Total),2014,4089,0.04089,69.2,0.7,25.2,1,0,2.4
+117,Georgia,Long-term average annual precipitation in volume (10^9 m3/year),2014,71.51,K,Asia,Western Asia,12.Prison Personnel Female,2014,579,NA,47.9,2.2,1.6,2.2,0,4.8
+118,Georgia,Long-term average annual precipitation in volume (10^9 m3/year),2014,71.51,K,Asia,Western Asia,5.Professional Judges or Magistrates Male,2014,132,NA,47.9,2.2,1.6,2.2,0,4.8
+119,Georgia,Long-term average annual precipitation in volume (10^9 m3/year),2014,71.51,K,Asia,Western Asia,6.Professional Judges or Magistrates Female,2014,121,NA,47.9,2.2,1.6,2.2,0,4.8
+120,Georgia,Long-term average annual precipitation in volume (10^9 m3/year),2014,71.51,K,Asia,Western Asia,11.Prison Personnel Male,2014,1472,NA,47.9,2.2,1.6,2.2,0,4.8
+121,Georgia,Long-term average annual precipitation in volume (10^9 m3/year),2014,71.51,K,Asia,Western Asia,4.Professional Judges or Magistrates (Total),2014,259,0.00259,47.9,2.2,1.6,2.2,0,4.8
+122,Georgia,Long-term average annual precipitation in volume (10^9 m3/year),2014,71.51,K,Asia,Western Asia,1.Police Personnel (Total),2014,9623,0.09623,47.9,2.2,1.6,2.2,0,4.8
+123,Georgia,Long-term average annual precipitation in volume (10^9 m3/year),2014,71.51,K,Asia,Western Asia,3.Police Personnel Female,2014,899,NA,47.9,2.2,1.6,2.2,0,4.8
+124,Georgia,Long-term average annual precipitation in volume (10^9 m3/year),2014,71.51,K,Asia,Western Asia,2.Police Personnel Male,2014,8724,NA,47.9,2.2,1.6,2.2,0,4.8
+125,Greece,Long-term average annual precipitation in volume (10^9 m3/year),2014,86.04,K,Europe,Southern Europe,2.Police Personnel Male,2014,45232,NA,59.9,0.8,19.3,1.1,0,24.9
+126,Greece,Long-term average annual precipitation in volume (10^9 m3/year),2014,86.04,K,Europe,Southern Europe,3.Police Personnel Female,2014,6973,NA,59.9,0.8,19.3,1.1,0,24.9
+127,Greece,Long-term average annual precipitation in volume (10^9 m3/year),2014,86.04,K,Europe,Southern Europe,1.Police Personnel (Total),2014,52205,0.52205,59.9,0.8,19.3,1.1,0,24.9
+128,Greece,Long-term average annual precipitation in volume (10^9 m3/year),2014,86.04,K,Europe,Southern Europe,4.Professional Judges or Magistrates (Total),2014,3989,0.03989,59.9,0.8,19.3,1.1,0,24.9
+129,Grenada,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.799,E,Americas,Caribbean,3.Police Personnel Female,2014,138,NA,46.4,2.8,34.4,4.6,n.a.,20.3
+130,Grenada,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.799,E,Americas,Caribbean,2.Police Personnel Male,2014,808,NA,46.4,2.8,34.4,4.6,n.a.,20.3
+131,Grenada,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.799,E,Americas,Caribbean,11.Prison Personnel Male,2014,126,NA,46.4,2.8,34.4,4.6,n.a.,20.3
+132,Grenada,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.799,E,Americas,Caribbean,12.Prison Personnel Female,2014,24,NA,46.4,2.8,34.4,4.6,n.a.,20.3
+133,Grenada,Long-term average annual precipitation in volume (10^9 m3/year),2014,0.799,E,Americas,Caribbean,1.Police Personnel (Total),2014,946,0.00946,46.4,2.8,34.4,4.6,n.a.,20.3
+134,Guatemala,Long-term average annual precipitation in volume (10^9 m3/year),2014,217.3,E,Americas,Central America,5.Professional Judges or Magistrates Male,2014,413,NA,64.5,2.8,37.4,4,3.3,38
+135,Guatemala,Long-term average annual precipitation in volume (10^9 m3/year),2014,217.3,E,Americas,Central America,1.Police Personnel (Total),2014,30841,0.30841,64.5,2.8,37.4,4,3.3,38
+136,Guatemala,Long-term average annual precipitation in volume (10^9 m3/year),2014,217.3,E,Americas,Central America,4.Professional Judges or Magistrates (Total),2014,724,0.00724,64.5,2.8,37.4,4,3.3,38
+137,Guatemala,Long-term average annual precipitation in volume (10^9 m3/year),2014,217.3,E,Americas,Central America,3.Police Personnel Female,2014,4065,NA,64.5,2.8,37.4,4,3.3,38
+138,Guatemala,Long-term average annual precipitation in volume (10^9 m3/year),2014,217.3,E,Americas,Central America,2.Police Personnel Male,2014,26776,NA,64.5,2.8,37.4,4,3.3,38
+139,Guatemala,Long-term average annual precipitation in volume (10^9 m3/year),2014,217.3,E,Americas,Central America,6.Professional Judges or Magistrates Female,2014,311,NA,64.5,2.8,37.4,4,3.3,38
+140,Guinea-Bissau,Long-term average annual precipitation in volume (10^9 m3/year),2014,56.98,E,Africa,Western Africa,11.Prison Personnel Male,2014,91,NA,56.3,1.7,35.3,3.3,0.3,29.6
+141,Guinea-Bissau,Long-term average annual precipitation in volume (10^9 m3/year),2014,56.98,E,Africa,Western Africa,10.Prison Personnel (Total),2014,102,0.00102,56.3,1.7,35.3,3.3,0.3,29.6
+142,Guinea-Bissau,Long-term average annual precipitation in volume (10^9 m3/year),2014,56.98,E,Africa,Western Africa,12.Prison Personnel Female,2014,11,NA,56.3,1.7,35.3,3.3,0.3,29.6
+143,Guyana,Long-term average annual precipitation in volume (10^9 m3/year),2014,513.1,NA,Americas,South America,5.Professional Judges or Magistrates Male,2014,19,NA,87,3.5,43.2,2.5,n.a.,35.7
+144,Guyana,Long-term average annual precipitation in volume (10^9 m3/year),2014,513.1,NA,Americas,South America,12.Prison Personnel Female,2014,192,NA,87,3.5,43.2,2.5,n.a.,35.7
+145,Guyana,Long-term average annual precipitation in volume (10^9 m3/year),2014,513.1,NA,Americas,South America,6.Professional Judges or Magistrates Female,2014,14,NA,87,3.5,43.2,2.5,n.a.,35.7
+146,Guyana,Long-term average annual precipitation in volume (10^9 m3/year),2014,513.1,NA,Americas,South America,4.Professional Judges or Magistrates (Total),2014,33,0.00033,87,3.5,43.2,2.5,n.a.,35.7
+147,Guyana,Long-term average annual precipitation in volume (10^9 m3/year),2014,513.1,NA,Americas,South America,11.Prison Personnel Male,2014,204,NA,87,3.5,43.2,2.5,n.a.,35.7
+148,Honduras,Long-term average annual precipitation in volume (10^9 m3/year),2014,222.3,E,Americas,Central America,11.Prison Personnel Male,2014,1253,NA,64.1,4.5,27.7,7.2,0.2,29.7
+149,Honduras,Long-term average annual precipitation in volume (10^9 m3/year),2014,222.3,E,Americas,Central America,12.Prison Personnel Female,2014,353,NA,64.1,4.5,27.7,7.2,0.2,29.7
+150,Hungary,Long-term average annual precipitation in volume (10^9 m3/year),2014,54.79,K,Europe,Eastern Europe,3.Police Personnel Female,2014,8272,NA,33.7,4.3,10,0.8,2,4.1
+151,Hungary,Long-term average annual precipitation in volume (10^9 m3/year),2014,54.79,K,Europe,Eastern Europe,5.Professional Judges or Magistrates Male,2014,883,NA,33.7,4.3,10,0.8,2,4.1
+152,Hungary,Long-term average annual precipitation in volume (10^9 m3/year),2014,54.79,K,Europe,Eastern Europe,8.Prosecution Personnel Male,2014,890,NA,33.7,4.3,10,0.8,2,4.1
+153,Hungary,Long-term average annual precipitation in volume (10^9 m3/year),2014,54.79,K,Europe,Eastern Europe,2.Police Personnel Male,2014,28615,NA,33.7,4.3,10,0.8,2,4.1
+154,Hungary,Long-term average annual precipitation in volume (10^9 m3/year),2014,54.79,K,Europe,Eastern Europe,12.Prison Personnel Female,2014,2441,NA,33.7,4.3,10,0.8,2,4.1
+155,Hungary,Long-term average annual precipitation in volume (10^9 m3/year),2014,54.79,K,Europe,Eastern Europe,4.Professional Judges or Magistrates (Total),2014,2839,0.02839,33.7,4.3,10,0.8,2,4.1
+156,Hungary,Long-term average annual precipitation in volume (10^9 m3/year),2014,54.79,K,Europe,Eastern Europe,1.Police Personnel (Total),2014,36887,0.36887,33.7,4.3,10,0.8,2,4.1
+157,Hungary,Long-term average annual precipitation in volume (10^9 m3/year),2014,54.79,K,Europe,Eastern Europe,9.Prosecution Personnel Female,2014,1436,NA,33.7,4.3,10,0.8,2,4.1
+158,Hungary,Long-term average annual precipitation in volume (10^9 m3/year),2014,54.79,K,Europe,Eastern Europe,11.Prison Personnel Male,2014,5654,NA,33.7,4.3,10,0.8,2,4.1
+159,Hungary,Long-term average annual precipitation in volume (10^9 m3/year),2014,54.79,K,Europe,Eastern Europe,6.Professional Judges or Magistrates Female,2014,1956,NA,33.7,4.3,10,0.8,2,4.1
+160,Hungary,Long-term average annual precipitation in volume (10^9 m3/year),2014,54.79,K,Europe,Eastern Europe,7.Prosecution Personnel (Total),2014,2326,0.02326,33.7,4.3,10,0.8,2,4.1
+161,Israel,Long-term average annual precipitation in volume (10^9 m3/year),2014,9.6,K,Asia,Western Asia,12.Prison Personnel Female,2014,1245,NA,55.7,0.8,10.1,1.2,0,1.7
+162,Israel,Long-term average annual precipitation in volume (10^9 m3/year),2014,9.6,K,Asia,Western Asia,11.Prison Personnel Male,2014,5512,NA,55.7,0.8,10.1,1.2,0,1.7
+163,Jamaica,Long-term average annual precipitation in volume (10^9 m3/year),2014,22.54,E,Americas,Caribbean,4.Professional Judges or Magistrates (Total),2014,97,0.00097,65.9,1.7,13.3,3.4,0.1,46.1
+164,Jamaica,Long-term average annual precipitation in volume (10^9 m3/year),2014,22.54,E,Americas,Caribbean,12.Prison Personnel Female,2014,412,NA,65.9,1.7,13.3,3.4,0.1,46.1
+165,Jamaica,Long-term average annual precipitation in volume (10^9 m3/year),2014,22.54,E,Americas,Caribbean,11.Prison Personnel Male,2014,1833,NA,65.9,1.7,13.3,3.4,0.1,46.1
+166,Jamaica,Long-term average annual precipitation in volume (10^9 m3/year),2014,22.54,E,Americas,Caribbean,1.Police Personnel (Total),2014,11796,0.11796,65.9,1.7,13.3,3.4,0.1,46.1
+167,Kazakhstan,Long-term average annual precipitation in volume (10^9 m3/year),2014,681.2,E,Asia,Central Asia,5.Professional Judges or Magistrates Male,2014,1426,NA,70.4,2.9,13.5,3.7,0.7,8.4
+168,Kazakhstan,Long-term average annual precipitation in volume (10^9 m3/year),2014,681.2,E,Asia,Central Asia,6.Professional Judges or Magistrates Female,2014,1180,NA,70.4,2.9,13.5,3.7,0.7,8.4
+169,Kazakhstan,Long-term average annual precipitation in volume (10^9 m3/year),2014,681.2,E,Asia,Central Asia,4.Professional Judges or Magistrates (Total),2014,2606,0.02606,70.4,2.9,13.5,3.7,0.7,8.4
+170,Kazakhstan,Long-term average annual precipitation in volume (10^9 m3/year),2014,681.2,E,Asia,Central Asia,1.Police Personnel (Total),2014,41783,0.41783,70.4,2.9,13.5,3.7,0.7,8.4
+171,Kenya,Long-term average annual precipitation in volume (10^9 m3/year),2014,365.6,E,Africa,Eastern Africa,12.Prison Personnel Female,2014,3098,NA,79.6,4.4,22.7,4.9,1,7.9
+172,Kenya,Long-term average annual precipitation in volume (10^9 m3/year),2014,365.6,E,Africa,Eastern Africa,5.Professional Judges or Magistrates Male,2014,357,NA,79.6,4.4,22.7,4.9,1,7.9
+173,Kenya,Long-term average annual precipitation in volume (10^9 m3/year),2014,365.6,E,Africa,Eastern Africa,3.Police Personnel Female,2014,5089,NA,79.6,4.4,22.7,4.9,1,7.9
+174,Kenya,Long-term average annual precipitation in volume (10^9 m3/year),2014,365.6,E,Africa,Eastern Africa,11.Prison Personnel Male,2014,16489,NA,79.6,4.4,22.7,4.9,1,7.9
+175,Kenya,Long-term average annual precipitation in volume (10^9 m3/year),2014,365.6,E,Africa,Eastern Africa,1.Police Personnel (Total),2014,39218,0.39218,79.6,4.4,22.7,4.9,1,7.9
+176,Kenya,Long-term average annual precipitation in volume (10^9 m3/year),2014,365.6,E,Africa,Eastern Africa,6.Professional Judges or Magistrates Female,2014,266,NA,79.6,4.4,22.7,4.9,1,7.9
+177,Kenya,Long-term average annual precipitation in volume (10^9 m3/year),2014,365.6,E,Africa,Eastern Africa,2.Police Personnel Male,2014,34129,NA,79.6,4.4,22.7,4.9,1,7.9
+178,Kenya,Long-term average annual precipitation in volume (10^9 m3/year),2014,365.6,E,Africa,Eastern Africa,4.Professional Judges or Magistrates (Total),2014,623,0.00623,79.6,4.4,22.7,4.9,1,7.9
+179,Latvia,Long-term average annual precipitation in volume (10^9 m3/year),2014,43.01,K,Europe,Northern Europe,4.Professional Judges or Magistrates (Total),2014,430,0.0043,61.4,1.2,16.5,1.6,0.4,9
+180,Latvia,Long-term average annual precipitation in volume (10^9 m3/year),2014,43.01,K,Europe,Northern Europe,12.Prison Personnel Female,2014,851,NA,61.4,1.2,16.5,1.6,0.4,9
+181,Latvia,Long-term average annual precipitation in volume (10^9 m3/year),2014,43.01,K,Europe,Northern Europe,5.Professional Judges or Magistrates Male,2014,89,NA,61.4,1.2,16.5,1.6,0.4,9
+182,Latvia,Long-term average annual precipitation in volume (10^9 m3/year),2014,43.01,K,Europe,Northern Europe,1.Police Personnel (Total),2014,8813,0.08813,61.4,1.2,16.5,1.6,0.4,9
+183,Latvia,Long-term average annual precipitation in volume (10^9 m3/year),2014,43.01,K,Europe,Northern Europe,6.Professional Judges or Magistrates Female,2014,341,NA,61.4,1.2,16.5,1.6,0.4,9
+184,Latvia,Long-term average annual precipitation in volume (10^9 m3/year),2014,43.01,K,Europe,Northern Europe,2.Police Personnel Male,2014,5620,NA,61.4,1.2,16.5,1.6,0.4,9
+185,Latvia,Long-term average annual precipitation in volume (10^9 m3/year),2014,43.01,K,Europe,Northern Europe,3.Police Personnel Female,2014,3193,NA,61.4,1.2,16.5,1.6,0.4,9
+186,Latvia,Long-term average annual precipitation in volume (10^9 m3/year),2014,43.01,K,Europe,Northern Europe,11.Prison Personnel Male,2014,1789,NA,61.4,1.2,16.5,1.6,0.4,9
+187,Lebanon,Long-term average annual precipitation in volume (10^9 m3/year),2014,6.907,K,Asia,Western Asia,1.Police Personnel (Total),2014,27434,0.27434,21.8,1.1,4.2,5.4,0,33
+188,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,1.Police Personnel (Total),2014,9484,0.09484,51.9,0.8,14.6,4.3,0.1,15.7
+189,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,3.Police Personnel Female,2014,3276,NA,51.9,0.8,14.6,4.3,0.1,15.7
+190,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,8.Prosecution Personnel Male,2014,366,NA,51.9,0.8,14.6,4.3,0.1,15.7
+191,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,2.Police Personnel Male,2014,6208,NA,51.9,0.8,14.6,4.3,0.1,15.7
+192,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,4.Professional Judges or Magistrates (Total),2014,755,0.00755,51.9,0.8,14.6,4.3,0.1,15.7
+193,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,7.Prosecution Personnel (Total),2014,720,0.0072,51.9,0.8,14.6,4.3,0.1,15.7
+194,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,11.Prison Personnel Male,2014,1994,NA,51.9,0.8,14.6,4.3,0.1,15.7
+195,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,9.Prosecution Personnel Female,2014,354,NA,51.9,0.8,14.6,4.3,0.1,15.7
+196,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,5.Professional Judges or Magistrates Male,2014,299,NA,51.9,0.8,14.6,4.3,0.1,15.7
+197,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,6.Professional Judges or Magistrates Female,2014,456,NA,51.9,0.8,14.6,4.3,0.1,15.7
+198,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,12.Prison Personnel Female,2014,1135,NA,51.9,0.8,14.6,4.3,0.1,15.7
+199,Lithuania,Long-term average annual precipitation in volume (10^9 m3/year),2014,42.83,E,Europe,Northern Europe,10.Prison Personnel (Total),2014,3129,0.03129,51.9,0.8,14.6,4.3,0.1,15.7
+200,Madagascar,Long-term average annual precipitation in volume (10^9 m3/year),2014,888.6,E,Africa,Eastern Africa,12.Prison Personnel Female,2014,403,NA,53.8,3.3,24.4,5.3,0.6,n.a.
+201,Madagascar,Long-term average annual precipitation in volume (10^9 m3/year),2014,888.6,E,Africa,Eastern Africa,11.Prison Personnel Male,2014,1404,NA,53.8,3.3,24.4,5.3,0.6,n.a.
+202,Mauritius,Long-term average annual precipitation in volume (10^9 m3/year),2014,4.164,E,Africa,Eastern Africa,4.Professional Judges or Magistrates (Total),2014,69,0.00069,49.5,8,24.5,10.5,0.5,41.5
+203,Mauritius,Long-term average annual precipitation in volume (10^9 m3/year),2014,4.164,E,Africa,Eastern Africa,6.Professional Judges or Magistrates Female,2014,41,NA,49.5,8,24.5,10.5,0.5,41.5
+204,Mauritius,Long-term average annual precipitation in volume (10^9 m3/year),2014,4.164,E,Africa,Eastern Africa,5.Professional Judges or Magistrates Male,2014,28,NA,49.5,8,24.5,10.5,0.5,41.5
+205,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,5.Professional Judges or Magistrates Male,2014,1021,NA,42.8,2.2,40.3,3.6,0.7,29.1
+206,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,9.Prosecution Personnel Female,2014,4918,NA,42.8,2.2,40.3,3.6,0.7,29.1
+207,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,1.Police Personnel (Total),2014,404713,4.04713,42.8,2.2,40.3,3.6,0.7,29.1
+208,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,4.Professional Judges or Magistrates (Total),2014,1627,0.01627,42.8,2.2,40.3,3.6,0.7,29.1
+209,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,11.Prison Personnel Male,2014,27456,NA,42.8,2.2,40.3,3.6,0.7,29.1
+210,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,3.Police Personnel Female,2014,68991,NA,42.8,2.2,40.3,3.6,0.7,29.1
+211,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,7.Prosecution Personnel (Total),2014,10491,0.10491,42.8,2.2,40.3,3.6,0.7,29.1
+212,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,10.Prison Personnel (Total),2014,41419,0.41419,42.8,2.2,40.3,3.6,0.7,29.1
+213,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,8.Prosecution Personnel Male,2014,5573,NA,42.8,2.2,40.3,3.6,0.7,29.1
+214,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,12.Prison Personnel Female,2014,13963,NA,42.8,2.2,40.3,3.6,0.7,29.1
+215,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,2.Police Personnel Male,2014,335722,NA,42.8,2.2,40.3,3.6,0.7,29.1
+216,Mexico,Long-term average annual precipitation in volume (10^9 m3/year),2014,1489,NA,Americas,Central America,6.Professional Judges or Magistrates Female,2014,606,NA,42.8,2.2,40.3,3.6,0.7,29.1
+217,Mongolia,Long-term average annual precipitation in volume (10^9 m3/year),2014,377,E,Asia,Eastern Asia,11.Prison Personnel Male,2014,2029,NA,66.4,3.3,14.7,3.4,1.5,6.5
+218,Mongolia,Long-term average annual precipitation in volume (10^9 m3/year),2014,377,E,Asia,Eastern Asia,6.Professional Judges or Magistrates Female,2014,317,NA,66.4,3.3,14.7,3.4,1.5,6.5
+219,Mongolia,Long-term average annual precipitation in volume (10^9 m3/year),2014,377,E,Asia,Eastern Asia,12.Prison Personnel Female,2014,977,NA,66.4,3.3,14.7,3.4,1.5,6.5
+220,Mongolia,Long-term average annual precipitation in volume (10^9 m3/year),2014,377,E,Asia,Eastern Asia,4.Professional Judges or Magistrates (Total),2014,475,0.00475,66.4,3.3,14.7,3.4,1.5,6.5
+221,Mongolia,Long-term average annual precipitation in volume (10^9 m3/year),2014,377,E,Asia,Eastern Asia,5.Professional Judges or Magistrates Male,2014,158,NA,66.4,3.3,14.7,3.4,1.5,6.5
+222,Montenegro,Long-term average annual precipitation in volume (10^9 m3/year),NA,NA,NA,Europe,Southern Europe,1.Police Personnel (Total),2014,4255,0.04255,20.5,2.5,16,4.1,0,4.1
+223,Montenegro,Long-term average annual precipitation in volume (10^9 m3/year),NA,NA,NA,Europe,Southern Europe,10.Prison Personnel (Total),2014,484,0.00484,20.5,2.5,16,4.1,0,4.1
+224,Montenegro,Long-term average annual precipitation in volume (10^9 m3/year),NA,NA,NA,Europe,Southern Europe,5.Professional Judges or Magistrates Male,2014,110,NA,20.5,2.5,16,4.1,0,4.1
+225,Montenegro,Long-term average annual precipitation in volume (10^9 m3/year),NA,NA,NA,Europe,Southern Europe,6.Professional Judges or Magistrates Female,2014,144,NA,20.5,2.5,16,4.1,0,4.1
+226,Montenegro,Long-term average annual precipitation in volume (10^9 m3/year),NA,NA,NA,Europe,Southern Europe,3.Police Personnel Female,2014,368,NA,20.5,2.5,16,4.1,0,4.1
+227,Montenegro,Long-term average annual precipitation in volume (10^9 m3/year),NA,NA,NA,Europe,Southern Europe,11.Prison Personnel Male,2014,379,NA,20.5,2.5,16,4.1,0,4.1
+228,Montenegro,Long-term average annual precipitation in volume (10^9 m3/year),NA,NA,NA,Europe,Southern Europe,12.Prison Personnel Female,2014,105,NA,20.5,2.5,16,4.1,0,4.1
+229,Montenegro,Long-term average annual precipitation in volume (10^9 m3/year),NA,NA,NA,Europe,Southern Europe,2.Police Personnel Male,2014,3887,NA,20.5,2.5,16,4.1,0,4.1
+230,Montenegro,Long-term average annual precipitation in volume (10^9 m3/year),NA,NA,NA,Europe,Southern Europe,7.Prosecution Personnel (Total),2014,109,0.00109,20.5,2.5,16,4.1,0,4.1
+231,Montenegro,Long-term average annual precipitation in volume (10^9 m3/year),NA,NA,NA,Europe,Southern Europe,4.Professional Judges or Magistrates (Total),2014,254,0.00254,20.5,2.5,16,4.1,0,4.1
+232,Morocco,Long-term average annual precipitation in volume (10^9 m3/year),2014,154.5,E,Africa,Northern Africa,12.Prison Personnel Female,2014,1188,NA,39.5,1.7,7.7,4,0.2,18.4
+233,Morocco,Long-term average annual precipitation in volume (10^9 m3/year),2014,154.5,E,Africa,Northern Africa,11.Prison Personnel Male,2014,7791,NA,39.5,1.7,7.7,4,0.2,18.4
+234,Myanmar,Long-term average annual precipitation in volume (10^9 m3/year),2014,1415,E,Asia,South-Eastern Asia,3.Police Personnel Female,2014,3152,NA,37.9,1.7,13.1,1.1,0.1,5.2
+235,Myanmar,Long-term average annual precipitation in volume (10^9 m3/year),2014,1415,E,Asia,South-Eastern Asia,2.Police Personnel Male,2014,70792,NA,37.9,1.7,13.1,1.1,0.1,5.2
+236,Myanmar,Long-term average annual precipitation in volume (10^9 m3/year),2014,1415,E,Asia,South-Eastern Asia,1.Police Personnel (Total),2014,73944,0.73944,37.9,1.7,13.1,1.1,0.1,5.2
+237,North Macedonia,Long-term average annual precipitation in volume (10^9 m3/year),2014,15.91,E,Europe,Southern Europe,3.Police Personnel Female,2014,982,NA,39.8,1,21.8,2.5,0,9
+238,North Macedonia,Long-term average annual precipitation in volume (10^9 m3/year),2014,15.91,E,Europe,Southern Europe,1.Police Personnel (Total),2014,9306,0.09306,39.8,1,21.8,2.5,0,9
+239,North Macedonia,Long-term average annual precipitation in volume (10^9 m3/year),2014,15.91,E,Europe,Southern Europe,2.Police Personnel Male,2014,8324,NA,39.8,1,21.8,2.5,0,9
+240,Panama,Long-term average annual precipitation in volume (10^9 m3/year),2014,220.8,K,Americas,Central America,11.Prison Personnel Male,2014,551,NA,36.3,4.4,6.5,5.6,0.5,8.2
+241,Panama,Long-term average annual precipitation in volume (10^9 m3/year),2014,220.8,K,Americas,Central America,12.Prison Personnel Female,2014,561,NA,36.3,4.4,6.5,5.6,0.5,8.2
+242,Panama,Long-term average annual precipitation in volume (10^9 m3/year),2014,220.8,K,Americas,Central America,5.Professional Judges or Magistrates Male,2014,155,NA,36.3,4.4,6.5,5.6,0.5,8.2
+243,Panama,Long-term average annual precipitation in volume (10^9 m3/year),2014,220.8,K,Americas,Central America,4.Professional Judges or Magistrates (Total),2014,332,0.00332,36.3,4.4,6.5,5.6,0.5,8.2
+244,Panama,Long-term average annual precipitation in volume (10^9 m3/year),2014,220.8,K,Americas,Central America,6.Professional Judges or Magistrates Female,2014,177,NA,36.3,4.4,6.5,5.6,0.5,8.2
+245,Paraguay,Long-term average annual precipitation in volume (10^9 m3/year),2014,459.6,NA,Americas,South America,12.Prison Personnel Female,2014,317,NA,63.3,2.2,16.5,2.3,0.1,14.1
+246,Paraguay,Long-term average annual precipitation in volume (10^9 m3/year),2014,459.6,NA,Americas,South America,6.Professional Judges or Magistrates Female,2014,330,NA,63.3,2.2,16.5,2.3,0.1,14.1
+247,Paraguay,Long-term average annual precipitation in volume (10^9 m3/year),2014,459.6,NA,Americas,South America,4.Professional Judges or Magistrates (Total),2014,769,0.00769,63.3,2.2,16.5,2.3,0.1,14.1
+248,Paraguay,Long-term average annual precipitation in volume (10^9 m3/year),2014,459.6,NA,Americas,South America,11.Prison Personnel Male,2014,1198,NA,63.3,2.2,16.5,2.3,0.1,14.1
+249,Paraguay,Long-term average annual precipitation in volume (10^9 m3/year),2014,459.6,NA,Americas,South America,1.Police Personnel (Total),2014,16578,0.16578,63.3,2.2,16.5,2.3,0.1,14.1
+250,Paraguay,Long-term average annual precipitation in volume (10^9 m3/year),2014,459.6,NA,Americas,South America,2.Police Personnel Male,2014,15275,NA,63.3,2.2,16.5,2.3,0.1,14.1
+251,Paraguay,Long-term average annual precipitation in volume (10^9 m3/year),2014,459.6,NA,Americas,South America,3.Police Personnel Female,2014,1303,NA,63.3,2.2,16.5,2.3,0.1,14.1
+252,Paraguay,Long-term average annual precipitation in volume (10^9 m3/year),2014,459.6,NA,Americas,South America,5.Professional Judges or Magistrates Male,2014,439,NA,63.3,2.2,16.5,2.3,0.1,14.1
+253,Peru,Long-term average annual precipitation in volume (10^9 m3/year),2014,2234,NA,Americas,South America,9.Prosecution Personnel Female,2014,2359,NA,70.8,2.3,18.9,2.8,0.7,25.7
+254,Peru,Long-term average annual precipitation in volume (10^9 m3/year),2014,2234,NA,Americas,South America,7.Prosecution Personnel (Total),2014,5258,0.05258,70.8,2.3,18.9,2.8,0.7,25.7
+255,Peru,Long-term average annual precipitation in volume (10^9 m3/year),2014,2234,NA,Americas,South America,2.Police Personnel Male,2014,90370,NA,70.8,2.3,18.9,2.8,0.7,25.7
+256,Peru,Long-term average annual precipitation in volume (10^9 m3/year),2014,2234,NA,Americas,South America,12.Prison Personnel Female,2014,2101,NA,70.8,2.3,18.9,2.8,0.7,25.7
+257,Peru,Long-term average annual precipitation in volume (10^9 m3/year),2014,2234,NA,Americas,South America,11.Prison Personnel Male,2014,4574,NA,70.8,2.3,18.9,2.8,0.7,25.7
+258,Peru,Long-term average annual precipitation in volume (10^9 m3/year),2014,2234,NA,Americas,South America,8.Prosecution Personnel Male,2014,2899,NA,70.8,2.3,18.9,2.8,0.7,25.7
+259,Peru,Long-term average annual precipitation in volume (10^9 m3/year),2014,2234,NA,Americas,South America,3.Police Personnel Female,2014,14714,NA,70.8,2.3,18.9,2.8,0.7,25.7
+260,Peru,Long-term average annual precipitation in volume (10^9 m3/year),2014,2234,NA,Americas,South America,4.Professional Judges or Magistrates (Total),2014,896,0.00896,70.8,2.3,18.9,2.8,0.7,25.7
+261,Peru,Long-term average annual precipitation in volume (10^9 m3/year),2014,2234,NA,Americas,South America,1.Police Personnel (Total),2014,105084,1.05084,70.8,2.3,18.9,2.8,0.7,25.7
+262,Philippines,Long-term average annual precipitation in volume (10^9 m3/year),2014,704.4,E,Asia,South-Eastern Asia,5.Professional Judges or Magistrates Male,2014,962,NA,54.9,1.5,17,1.3,2.1,10.9
+263,Philippines,Long-term average annual precipitation in volume (10^9 m3/year),2014,704.4,E,Asia,South-Eastern Asia,12.Prison Personnel Female,2014,600,NA,54.9,1.5,17,1.3,2.1,10.9
+264,Philippines,Long-term average annual precipitation in volume (10^9 m3/year),2014,704.4,E,Asia,South-Eastern Asia,3.Police Personnel Female,2014,21175,NA,54.9,1.5,17,1.3,2.1,10.9
+265,Philippines,Long-term average annual precipitation in volume (10^9 m3/year),2014,704.4,E,Asia,South-Eastern Asia,11.Prison Personnel Male,2014,1971,NA,54.9,1.5,17,1.3,2.1,10.9
+266,Philippines,Long-term average annual precipitation in volume (10^9 m3/year),2014,704.4,E,Asia,South-Eastern Asia,7.Prosecution Personnel (Total),2014,1857,0.01857,54.9,1.5,17,1.3,2.1,10.9
+267,Philippines,Long-term average annual precipitation in volume (10^9 m3/year),2014,704.4,E,Asia,South-Eastern Asia,4.Professional Judges or Magistrates (Total),2014,1663,0.01663,54.9,1.5,17,1.3,2.1,10.9
+268,Philippines,Long-term average annual precipitation in volume (10^9 m3/year),2014,704.4,E,Asia,South-Eastern Asia,1.Police Personnel (Total),2014,147711,1.47711,54.9,1.5,17,1.3,2.1,10.9
+269,Philippines,Long-term average annual precipitation in volume (10^9 m3/year),2014,704.4,E,Asia,South-Eastern Asia,2.Police Personnel Male,2014,128158,NA,54.9,1.5,17,1.3,2.1,10.9
+270,Philippines,Long-term average annual precipitation in volume (10^9 m3/year),2014,704.4,E,Asia,South-Eastern Asia,6.Professional Judges or Magistrates Female,2014,701,NA,54.9,1.5,17,1.3,2.1,10.9
+271,Poland,Long-term average annual precipitation in volume (10^9 m3/year),2014,187.6,E,Europe,Eastern Europe,6.Professional Judges or Magistrates Female,2014,6330,NA,66.5,1.8,16.8,2.2,0.9,8.2
+272,Poland,Long-term average annual precipitation in volume (10^9 m3/year),2014,187.6,E,Europe,Eastern Europe,11.Prison Personnel Male,2014,23939,NA,66.5,1.8,16.8,2.2,0.9,8.2
+273,Poland,Long-term average annual precipitation in volume (10^9 m3/year),2014,187.6,E,Europe,Eastern Europe,12.Prison Personnel Female,2014,6410,NA,66.5,1.8,16.8,2.2,0.9,8.2
+274,Poland,Long-term average annual precipitation in volume (10^9 m3/year),2014,187.6,E,Europe,Eastern Europe,1.Police Personnel (Total),2014,98861,0.98861,66.5,1.8,16.8,2.2,0.9,8.2
+275,Poland,Long-term average annual precipitation in volume (10^9 m3/year),2014,187.6,E,Europe,Eastern Europe,5.Professional Judges or Magistrates Male,2014,3638,NA,66.5,1.8,16.8,2.2,0.9,8.2
+276,Poland,Long-term average annual precipitation in volume (10^9 m3/year),2014,187.6,E,Europe,Eastern Europe,2.Police Personnel Male,2014,83877,NA,66.5,1.8,16.8,2.2,0.9,8.2
+277,Poland,Long-term average annual precipitation in volume (10^9 m3/year),2014,187.6,E,Europe,Eastern Europe,10.Prison Personnel (Total),2014,30349,0.30349,66.5,1.8,16.8,2.2,0.9,8.2
+278,Poland,Long-term average annual precipitation in volume (10^9 m3/year),2014,187.6,E,Europe,Eastern Europe,4.Professional Judges or Magistrates (Total),2014,9968,0.09968,66.5,1.8,16.8,2.2,0.9,8.2
+279,Poland,Long-term average annual precipitation in volume (10^9 m3/year),2014,187.6,E,Europe,Eastern Europe,3.Police Personnel Female,2014,14984,NA,66.5,1.8,16.8,2.2,0.9,8.2
+280,Poland,Long-term average annual precipitation in volume (10^9 m3/year),2014,187.6,E,Europe,Eastern Europe,7.Prosecution Personnel (Total),2014,6226,0.06226,66.5,1.8,16.8,2.2,0.9,8.2
+281,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,5.Professional Judges or Magistrates Male,2014,2478,NA,63.2,2,16.5,2.8,0.3,22.3
+282,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,3.Police Personnel Female,2014,7370,NA,63.2,2,16.5,2.8,0.3,22.3
+283,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,12.Prison Personnel Female,2014,2509,NA,63.2,2,16.5,2.8,0.3,22.3
+284,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,8.Prosecution Personnel Male,2014,1235,NA,63.2,2,16.5,2.8,0.3,22.3
+285,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,9.Prosecution Personnel Female,2014,1353,NA,63.2,2,16.5,2.8,0.3,22.3
+286,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,4.Professional Judges or Magistrates (Total),2014,7026,0.07026,63.2,2,16.5,2.8,0.3,22.3
+287,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,6.Professional Judges or Magistrates Female,2014,4548,NA,63.2,2,16.5,2.8,0.3,22.3
+288,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,10.Prison Personnel (Total),2014,12053,0.12053,63.2,2,16.5,2.8,0.3,22.3
+289,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,11.Prison Personnel Male,2014,9544,NA,63.2,2,16.5,2.8,0.3,22.3
+290,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,1.Police Personnel (Total),2014,52907,0.52907,63.2,2,16.5,2.8,0.3,22.3
+291,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,2.Police Personnel Male,2014,45537,NA,63.2,2,16.5,2.8,0.3,22.3
+292,Romania,Long-term average annual precipitation in volume (10^9 m3/year),2014,151.9,E,Europe,Eastern Europe,7.Prosecution Personnel (Total),2014,2588,0.02588,63.2,2,16.5,2.8,0.3,22.3
+293,Serbia,Long-term average annual precipitation in volume (10^9 m3/year),2014,49.98,E,Europe,Southern Europe,1.Police Personnel (Total),2014,44632,0.44632,30,1.5,13.1,1.8,0.1,7.4
+294,Serbia,Long-term average annual precipitation in volume (10^9 m3/year),2014,49.98,E,Europe,Southern Europe,2.Police Personnel Male,2014,34512,NA,30,1.5,13.1,1.8,0.1,7.4
+295,Serbia,Long-term average annual precipitation in volume (10^9 m3/year),2014,49.98,E,Europe,Southern Europe,12.Prison Personnel Female,2014,1059,NA,30,1.5,13.1,1.8,0.1,7.4
+296,Serbia,Long-term average annual precipitation in volume (10^9 m3/year),2014,49.98,E,Europe,Southern Europe,3.Police Personnel Female,2014,10120,NA,30,1.5,13.1,1.8,0.1,7.4
+297,Serbia,Long-term average annual precipitation in volume (10^9 m3/year),2014,49.98,E,Europe,Southern Europe,4.Professional Judges or Magistrates (Total),2014,2884,0.02884,30,1.5,13.1,1.8,0.1,7.4
+298,Serbia,Long-term average annual precipitation in volume (10^9 m3/year),2014,49.98,E,Europe,Southern Europe,5.Professional Judges or Magistrates Male,2014,864,NA,30,1.5,13.1,1.8,0.1,7.4
+299,Serbia,Long-term average annual precipitation in volume (10^9 m3/year),2014,49.98,E,Europe,Southern Europe,6.Professional Judges or Magistrates Female,2014,2020,NA,30,1.5,13.1,1.8,0.1,7.4
+300,Serbia,Long-term average annual precipitation in volume (10^9 m3/year),2014,49.98,E,Europe,Southern Europe,11.Prison Personnel Male,2014,3184,NA,30,1.5,13.1,1.8,0.1,7.4
+301,Slovakia,Long-term average annual precipitation in volume (10^9 m3/year),2014,40.4,E,Europe,Eastern Europe,12.Prison Personnel Female,2014,1104,NA,54.8,2.9,13.3,1.6,0.3,3.6
+302,Slovakia,Long-term average annual precipitation in volume (10^9 m3/year),2014,40.4,E,Europe,Eastern Europe,11.Prison Personnel Male,2014,4111,NA,54.8,2.9,13.3,1.6,0.3,3.6
+303,Slovakia,Long-term average annual precipitation in volume (10^9 m3/year),2014,40.4,E,Europe,Eastern Europe,2.Police Personnel Male,2014,18710,NA,54.8,2.9,13.3,1.6,0.3,3.6
+304,Slovakia,Long-term average annual precipitation in volume (10^9 m3/year),2014,40.4,E,Europe,Eastern Europe,1.Police Personnel (Total),2014,22454,0.22454,54.8,2.9,13.3,1.6,0.3,3.6
+305,Slovakia,Long-term average annual precipitation in volume (10^9 m3/year),2014,40.4,E,Europe,Eastern Europe,9.Prosecution Personnel Female,2014,452,NA,54.8,2.9,13.3,1.6,0.3,3.6
+306,Slovakia,Long-term average annual precipitation in volume (10^9 m3/year),2014,40.4,E,Europe,Eastern Europe,5.Professional Judges or Magistrates Male,2014,507,NA,54.8,2.9,13.3,1.6,0.3,3.6
+307,Slovakia,Long-term average annual precipitation in volume (10^9 m3/year),2014,40.4,E,Europe,Eastern Europe,6.Professional Judges or Magistrates Female,2014,859,NA,54.8,2.9,13.3,1.6,0.3,3.6
+308,Slovakia,Long-term average annual precipitation in volume (10^9 m3/year),2014,40.4,E,Europe,Eastern Europe,7.Prosecution Personnel (Total),2014,933,0.00933,54.8,2.9,13.3,1.6,0.3,3.6
+309,Slovakia,Long-term average annual precipitation in volume (10^9 m3/year),2014,40.4,E,Europe,Eastern Europe,3.Police Personnel Female,2014,3744,NA,54.8,2.9,13.3,1.6,0.3,3.6
+310,Slovakia,Long-term average annual precipitation in volume (10^9 m3/year),2014,40.4,E,Europe,Eastern Europe,8.Prosecution Personnel Male,2014,481,NA,54.8,2.9,13.3,1.6,0.3,3.6
+311,Slovakia,Long-term average annual precipitation in volume (10^9 m3/year),2014,40.4,E,Europe,Eastern Europe,4.Professional Judges or Magistrates (Total),2014,1366,0.01366,54.8,2.9,13.3,1.6,0.3,3.6
+312,Slovenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,24.03,E,Europe,Southern Europe,2.Police Personnel Male,2014,5914,NA,52.4,0.4,11,0.7,0,10.4
+313,Slovenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,24.03,E,Europe,Southern Europe,3.Police Personnel Female,2014,1100,NA,52.4,0.4,11,0.7,0,10.4
+314,Slovenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,24.03,E,Europe,Southern Europe,4.Professional Judges or Magistrates (Total),2014,940,0.0094,52.4,0.4,11,0.7,0,10.4
+315,Slovenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,24.03,E,Europe,Southern Europe,1.Police Personnel (Total),2014,7014,0.07014,52.4,0.4,11,0.7,0,10.4
+316,Slovenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,24.03,E,Europe,Southern Europe,6.Professional Judges or Magistrates Female,2014,735,NA,52.4,0.4,11,0.7,0,10.4
+317,Slovenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,24.03,E,Europe,Southern Europe,11.Prison Personnel Male,2014,632,NA,52.4,0.4,11,0.7,0,10.4
+318,Slovenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,24.03,E,Europe,Southern Europe,12.Prison Personnel Female,2014,200,NA,52.4,0.4,11,0.7,0,10.4
+319,Slovenia,Long-term average annual precipitation in volume (10^9 m3/year),2014,24.03,E,Europe,Southern Europe,5.Professional Judges or Magistrates Male,2014,205,NA,52.4,0.4,11,0.7,0,10.4
+320,South Africa,Long-term average annual precipitation in volume (10^9 m3/year),2014,603.4,E,Africa,Southern Africa,5.Professional Judges or Magistrates Male,2014,1248,NA,76.4,2.1,42.6,2.4,0.8,38
+321,South Africa,Long-term average annual precipitation in volume (10^9 m3/year),2014,603.4,E,Africa,Southern Africa,4.Professional Judges or Magistrates (Total),2014,1996,0.01996,76.4,2.1,42.6,2.4,0.8,38
+322,South Africa,Long-term average annual precipitation in volume (10^9 m3/year),2014,603.4,E,Africa,Southern Africa,6.Professional Judges or Magistrates Female,2014,748,NA,76.4,2.1,42.6,2.4,0.8,38
+323,Sweden,Long-term average annual precipitation in volume (10^9 m3/year),2014,279.2,E,Europe,Northern Europe,2.Police Personnel Male,2014,13917,NA,85.4,0.4,39.8,0.8,0,6.9
+324,Sweden,Long-term average annual precipitation in volume (10^9 m3/year),2014,279.2,E,Europe,Northern Europe,12.Prison Personnel Female,2014,2405,NA,85.4,0.4,39.8,0.8,0,6.9
+325,Sweden,Long-term average annual precipitation in volume (10^9 m3/year),2014,279.2,E,Europe,Northern Europe,11.Prison Personnel Male,2014,3608,NA,85.4,0.4,39.8,0.8,0,6.9
+326,Sweden,Long-term average annual precipitation in volume (10^9 m3/year),2014,279.2,E,Europe,Northern Europe,1.Police Personnel (Total),2014,20051,0.20051,85.4,0.4,39.8,0.8,0,6.9
+327,Sweden,Long-term average annual precipitation in volume (10^9 m3/year),2014,279.2,E,Europe,Northern Europe,3.Police Personnel Female,2014,6134,NA,85.4,0.4,39.8,0.8,0,6.9
+328,Sweden,Long-term average annual precipitation in volume (10^9 m3/year),2014,279.2,E,Europe,Northern Europe,10.Prison Personnel (Total),2014,6013,0.06013,85.4,0.4,39.8,0.8,0,6.9
+329,Sweden,Long-term average annual precipitation in volume (10^9 m3/year),2014,279.2,E,Europe,Northern Europe,4.Professional Judges or Magistrates (Total),2014,2156,0.02156,85.4,0.4,39.8,0.8,0,6.9
+330,Thailand,Long-term average annual precipitation in volume (10^9 m3/year),2014,832.3,E,Asia,South-Eastern Asia,6.Professional Judges or Magistrates Female,2014,1188,NA,24.2,3.5,1.8,0.8,0.1,0.6
+331,Thailand,Long-term average annual precipitation in volume (10^9 m3/year),2014,832.3,E,Asia,South-Eastern Asia,12.Prison Personnel Female,2014,2408,NA,24.2,3.5,1.8,0.8,0.1,0.6
+332,Thailand,Long-term average annual precipitation in volume (10^9 m3/year),2014,832.3,E,Asia,South-Eastern Asia,4.Professional Judges or Magistrates (Total),2014,4320,0.0432,24.2,3.5,1.8,0.8,0.1,0.6
+333,Thailand,Long-term average annual precipitation in volume (10^9 m3/year),2014,832.3,E,Asia,South-Eastern Asia,1.Police Personnel (Total),2014,209150,2.0915,24.2,3.5,1.8,0.8,0.1,0.6
+334,Thailand,Long-term average annual precipitation in volume (10^9 m3/year),2014,832.3,E,Asia,South-Eastern Asia,5.Professional Judges or Magistrates Male,2014,3132,NA,24.2,3.5,1.8,0.8,0.1,0.6
+335,Thailand,Long-term average annual precipitation in volume (10^9 m3/year),2014,832.3,E,Asia,South-Eastern Asia,11.Prison Personnel Male,2014,9101,NA,24.2,3.5,1.8,0.8,0.1,0.6
+336,Trinidad and Tobago,Long-term average annual precipitation in volume (10^9 m3/year),2014,11.29,E,Americas,Caribbean,6.Professional Judges or Magistrates Female,2014,53,NA,74,1.5,28.3,1.7,0.1,34.2
+337,Trinidad and Tobago,Long-term average annual precipitation in volume (10^9 m3/year),2014,11.29,E,Americas,Caribbean,12.Prison Personnel Female,2014,241,NA,74,1.5,28.3,1.7,0.1,34.2
+338,Trinidad and Tobago,Long-term average annual precipitation in volume (10^9 m3/year),2014,11.29,E,Americas,Caribbean,3.Police Personnel Female,2014,1598,NA,74,1.5,28.3,1.7,0.1,34.2
+339,Trinidad and Tobago,Long-term average annual precipitation in volume (10^9 m3/year),2014,11.29,E,Americas,Caribbean,2.Police Personnel Male,2014,4864,NA,74,1.5,28.3,1.7,0.1,34.2
+340,Trinidad and Tobago,Long-term average annual precipitation in volume (10^9 m3/year),2014,11.29,E,Americas,Caribbean,1.Police Personnel (Total),2014,6462,0.06462,74,1.5,28.3,1.7,0.1,34.2
+341,Trinidad and Tobago,Long-term average annual precipitation in volume (10^9 m3/year),2014,11.29,E,Americas,Caribbean,11.Prison Personnel Male,2014,2911,NA,74,1.5,28.3,1.7,0.1,34.2
+342,Trinidad and Tobago,Long-term average annual precipitation in volume (10^9 m3/year),2014,11.29,E,Americas,Caribbean,5.Professional Judges or Magistrates Male,2014,38,NA,74,1.5,28.3,1.7,0.1,34.2
+343,Trinidad and Tobago,Long-term average annual precipitation in volume (10^9 m3/year),2014,11.29,E,Americas,Caribbean,4.Professional Judges or Magistrates (Total),2014,91,0.00091,74,1.5,28.3,1.7,0.1,34.2
+344,Tunisia,Long-term average annual precipitation in volume (10^9 m3/year),2014,33.87,E,Africa,Northern Africa,4.Professional Judges or Magistrates (Total),2014,1799,0.01799,68.7,1.8,12,9.8,0,8.8
+345,Tunisia,Long-term average annual precipitation in volume (10^9 m3/year),2014,33.87,E,Africa,Northern Africa,6.Professional Judges or Magistrates Female,2014,661,NA,68.7,1.8,12,9.8,0,8.8
+346,Tunisia,Long-term average annual precipitation in volume (10^9 m3/year),2014,33.87,E,Africa,Northern Africa,9.Prosecution Personnel Female,2014,37,NA,68.7,1.8,12,9.8,0,8.8
+347,Tunisia,Long-term average annual precipitation in volume (10^9 m3/year),2014,33.87,E,Africa,Northern Africa,5.Professional Judges or Magistrates Male,2014,1138,NA,68.7,1.8,12,9.8,0,8.8
+348,Tunisia,Long-term average annual precipitation in volume (10^9 m3/year),2014,33.87,E,Africa,Northern Africa,8.Prosecution Personnel Male,2014,329,NA,68.7,1.8,12,9.8,0,8.8
+349,Tunisia,Long-term average annual precipitation in volume (10^9 m3/year),2014,33.87,E,Africa,Northern Africa,7.Prosecution Personnel (Total),2014,366,0.00366,68.7,1.8,12,9.8,0,8.8
+350,Turkey,Long-term average annual precipitation in volume (10^9 m3/year),2014,465.7,K,Asia,Western Asia,12.Prison Personnel Female,2014,4616,NA,58.2,3.3,6.8,4.7,0.1,5.7
+351,Turkey,Long-term average annual precipitation in volume (10^9 m3/year),2014,465.7,K,Asia,Western Asia,6.Professional Judges or Magistrates Female,2014,3702,NA,58.2,3.3,6.8,4.7,0.1,5.7
+352,Turkey,Long-term average annual precipitation in volume (10^9 m3/year),2014,465.7,K,Asia,Western Asia,11.Prison Personnel Male,2014,41662,NA,58.2,3.3,6.8,4.7,0.1,5.7
+353,Turkey,Long-term average annual precipitation in volume (10^9 m3/year),2014,465.7,K,Asia,Western Asia,5.Professional Judges or Magistrates Male,2014,6769,NA,58.2,3.3,6.8,4.7,0.1,5.7
+354,Turkey,Long-term average annual precipitation in volume (10^9 m3/year),2014,465.7,K,Asia,Western Asia,4.Professional Judges or Magistrates (Total),2014,10471,0.10471,58.2,3.3,6.8,4.7,0.1,5.7
+355,Uganda,Long-term average annual precipitation in volume (10^9 m3/year),2014,285,E,Africa,Eastern Africa,12.Prison Personnel Female,2014,2254,NA,55.3,8.8,15.8,7.2,2.1,22
+356,Uganda,Long-term average annual precipitation in volume (10^9 m3/year),2014,285,E,Africa,Eastern Africa,11.Prison Personnel Male,2014,5748,NA,55.3,8.8,15.8,7.2,2.1,22
+357,Uganda,Long-term average annual precipitation in volume (10^9 m3/year),2014,285,E,Africa,Eastern Africa,1.Police Personnel (Total),2014,45059,0.45059,55.3,8.8,15.8,7.2,2.1,22
+358,Uruguay,Long-term average annual precipitation in volume (10^9 m3/year),2014,229.1,NA,Americas,South America,3.Police Personnel Female,2014,4684,NA,77.3,1.3,28.1,2.1,0,27.4
+359,Uruguay,Long-term average annual precipitation in volume (10^9 m3/year),2014,229.1,NA,Americas,South America,1.Police Personnel (Total),2014,22917,0.22917,77.3,1.3,28.1,2.1,0,27.4
+360,Uruguay,Long-term average annual precipitation in volume (10^9 m3/year),2014,229.1,NA,Americas,South America,2.Police Personnel Male,2014,18233,NA,77.3,1.3,28.1,2.1,0,27.4
+361,Czech Republic,NA,NA,NA,NA,Europe,Eastern Europe,4.Professional Judges or Magistrates (Total),2014,762,0.00762,55.9,1.4,35.1,1.8,0.4,8.8
+362,Czech Republic,NA,NA,NA,NA,Europe,Eastern Europe,11.Prison Personnel Male,2014,8067,NA,55.9,1.4,35.1,1.8,0.4,8.8
+363,Czech Republic,NA,NA,NA,NA,Europe,Eastern Europe,5.Professional Judges or Magistrates Male,2014,1192,NA,55.9,1.4,35.1,1.8,0.4,8.8
+364,Czech Republic,NA,NA,NA,NA,Europe,Eastern Europe,6.Professional Judges or Magistrates Female,2014,1836,NA,55.9,1.4,35.1,1.8,0.4,8.8
+365,Czech Republic,NA,NA,NA,NA,Europe,Eastern Europe,8.Prosecution Personnel Male,2014,576,NA,55.9,1.4,35.1,1.8,0.4,8.8
+366,Czech Republic,NA,NA,NA,NA,Europe,Eastern Europe,3.Police Personnel Female,2014,5937,NA,55.9,1.4,35.1,1.8,0.4,8.8
+367,Czech Republic,NA,NA,NA,NA,Europe,Eastern Europe,7.Prosecution Personnel (Total),2014,1233,0.01233,55.9,1.4,35.1,1.8,0.4,8.8
+368,Czech Republic,NA,NA,NA,NA,Europe,Eastern Europe,2.Police Personnel Male,2014,33447,NA,55.9,1.4,35.1,1.8,0.4,8.8
+369,Czech Republic,NA,NA,NA,NA,Europe,Eastern Europe,9.Prosecution Personnel Female,2014,657,NA,55.9,1.4,35.1,1.8,0.4,8.8
+370,Czech Republic,NA,NA,NA,NA,Europe,Eastern Europe,1.Police Personnel (Total),2014,39384,0.39384,55.9,1.4,35.1,1.8,0.4,8.8
+371,Czech Republic,NA,NA,NA,NA,Europe,Eastern Europe,12.Prison Personnel Female,2014,2606,NA,55.9,1.4,35.1,1.8,0.4,8.8

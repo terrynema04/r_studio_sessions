@@ -1,0 +1,39 @@
+---
+title: "Assingment"
+author: "TerrenceN"
+date: "September 26, 2019"
+output: html_document
+---
+```{r}
+##install.packages("xlsx")
+##install.packages(dplyr)
+library ("xlsx")
+firstsheet <- read.xlsx (file = "C:/R- Studio/Finacials/cjp.xlsx", header = TRUE, sheetIndex =1)
+print(firstsheet) ## crime rate stat file
+
+secondsheet <- read.xlsx(file = "C:/R- Studio/Finacials/ExportedResults.xlsx", header = TRUE,sheetIndex = 1)
+print(secondsheet) ## criminal justice personnel distributiuon
+data ("firstsheet")
+firstsheet
+
+thirdsheet <- read.xlsx (file = "C:/R- Studio/Finacials/acqua.xlsx", header = TRUE,sheetIndex = 1)
+thirdsheet ## annual average rainfall volume
+firstsheet
+secondsheet
+thirdsheet
+
+b <- firstsheet %>% filter(firstsheet$Year == "2014")
+b
+b %>% group_by(b$Country)
+firstnsecond <- merge(b,secondsheet, by= 'Country')
+firstnsecond
+
+firstnsecondnthird <- merge(thirdsheet,firstnsecond, by = 'Country',all.y =TRUE)
+firstnsecondnthird
+which(duplicated(firstnsecondnthird))
+
+write.csv(x = firstnsecondnthird,file = "C:/R- Studio/Finacials/Combined.csv", sep = ",", row.names = TRUE)
+
+          
+```
+
