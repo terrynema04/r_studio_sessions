@@ -1,0 +1,502 @@
+---
+title: "Exercise_final (Chapter10-12)"
+author: "TerrenceN"
+date: "September 25, 2019"
+output: html_document
+---
+
+## Exercise 10.1
+```{r}
+##a
+vec1 <- c(2,1,1,3,2,1,0)
+vec2 <- c(3,8,2,2,0,0,0)
+if((vec1[1]+vec2[2])==10){ cat("Print me!") } ##TRUE prints
+if(vec1[1]>=2&&vec2[1]>=2){ cat("Print me!") } ##TRUE prints
+if(all((vec2-vec1)[c(2,6)]<7)){ cat("Print me!") } ##FALSE no print
+if(!is.na(vec2[3])){ cat("Print me!") } ## TRUE prints
+
+##b
+ifelse(vec1 + vec2 > 3, vec1 * vec2, vec1 + vec2)
+
+##c
+#squarematrix <- matrix(1,1, nrow =2, ncol = 2)
+#squarematrix
+if (any(toupper(substr(diag(squarematrix), 1, 1)) == "G")) {
+  i <- which(toupper(substr(diag(squarematrix), 1, 1)) == "G")
+  diag(squarematrix)[i] <- "HERE"
+} else {
+  squarematrix <- diag(nrow(squarematrix))
+}
+squarematrix
+
+squarematrix <- matrix(as.character(1:16),4,4)
+squarematrix <- matrix(c("DANDELION","Hyacinthus","Gerbera","MARIGOLD","geranium","ligularia","Pachysandra","SNAPDRAGON","GLADIOLUS"),3,3)
+squarematrix <- matrix(c("GREAT","exercises","right","here"),2,2,byrow=T)
+
+```
+
+
+## Exercise 10.2
+```{r}
+switch(mynum,12,34,56,78,NA)
+
+if (mynum == 1) {
+  a <- 12
+} else if (mynum == 2) {
+  a <- 34
+} else if (mynum == 3) {
+  a <- 56
+} else if (mynum == 4) {
+  a <- 78
+} else {
+   a<- NA
+}
+mynum <- 3  ## did tests with 3 and 0 and respectively gave 56 and NA
+a
+## b
+if (any(doselevel == "High")) { ##initial state of doselevel
+  lowdose <- ifelse(lowdose >= 10, 10, lowdose / 2) ## condition 1 and action
+  meddose <- ifelse(meddose >= 26, 26, meddose) ## condition 2 and action
+  highdose <- ifelse(highdose < 60, 60, highdose * 1.5) ## condition 3 and action
+  
+  dosage <- rep(x = lowdose, length.out = length(doselevel)) ## creation of dosage vector
+  dosage[which(doselevel == "Med")] <- meddose ## after creating dosage overwriter med by meddose
+  dosage[which(doselevel == "High")] <- highdose ##overwite vector dosage on high with highdosage
+} else { ## if the initial state of doselevel is not High, then what?
+  doselevel <- factor(doselevel,levels = c("Low","Med"),labels = c("Small","Large")) ## new factor vector
+  
+    if (lowdose < 15 && meddose < 35) {
+    lowdose <- lowdose * 2
+    meddose <- meddose + highdose
+  }
+  
+  dosage <- rep(x = lowdose, length.out = length(doselevel))
+  dosage[doselevel == "Large"] <- meddose
+}
+## i- to run first set, uncomment all for ii
+#lowdose <- 12.5
+#meddose <- 25.3
+#highdose <- 58.1
+#doselevel <- factor(c("Low","High","High","High","Low","Med","Med"),levels=c("Low","Med","High"))
+##dosage ## 10.0 60.0 60.0 60.0 10.0 25.3 25.3 
+
+## ii to run for second set comment all i) and uncomment all ii)
+lowdose <- 12.5
+meddose <- 25.3
+highdose <- 58.1
+doselevel <- factor(c("Low","Low","Low","Med","Low","Med","Med"),levels=c("Low","Med","High"))
+doselevel <- factor(c("Small","Small","Small","Large","Small","Large","Large"),levels=c("Small","Large"))
+dosage ##25.0 25.0 25.0 83.4 25.0 83.4 83.4 ## to run  second state, comment doselevel and dosage on (i) then uncomment dosage on (ii)
+#doselevel
+
+##iii 
+lowdose <- 9
+meddose <- 49
+highdose <- 61
+doselevel <- factor(c("Low","Med","Med"),levels=c("Low","Med","High"))
+dosage ## 9 49 49
+
+## iv
+lowdose <- 9
+meddose <- 49
+highdose <- 61
+doselevel <- factor(c("Low","High","High","High","Low","Med","Med"),levels=c("Low","Med","High"))
+dosage ## 4.5 91.5 91.5 91.5  4.5 26.0 26.0
+
+##c
+mynum <- c(0:9)
+mynum
+```
+## Execersice 10.3
+```{r}
+mystrings <- c("Peter","Homer","Lois","Stewie","Maggie","Bart")
+mynums <- rep(NA, length(mystrings))
+for(i in 1:length(mystrings)) {
+  mynums[i] <- switch(EXPR=mystrings[i], Homer=12, Marge=34, Bart=56, Lisa=78, Maggie=90, NA)
+}
+
+count <- 0
+
+for(i in mylist) {
+  if (is.matrix(i)) {
+    count <- count + 1
+  } else if(is.list(i)) {
+    for(j in i) {
+      count <- ifelse(is.matrix(j), count + 1, count)
+    }
+  }
+}
+mylist <- list(aa=c(3.4,1),bb=matrix(1:4,2,2),cc=matrix(c(T,T,F,T,F,F),3,2),dd="string here",ee=list(c("hello","you"),matrix(c("hello","there"))),ff=matrix(c("red","green","blue","yellow")))
+
+mylist <- list("tricked you",as.vector(matrix(1:6,3,2)))
+
+mylist <- list(list(1,2,3),list(c(3,2),2),list(c(1,2),matrix(c(1,2))),rbind(1:10,100:91))
+
+```
+## Exercise 10.4
+```{r}
+## a
+##mynumbers <- c(2,2,2,2,5,2) true and end at 6
+mynumbers <- 2:20 ##true, at 4
+##mynumbers <- c(10,1,10,1,2)
+mynumbers
+mylist <- list()
+counter <- 1
+mycondition <- mynumbers[counter]<=5
+mycondition
+while(mycondition){
+  mylist[[counter]] <- diag(mynumbers[counter])
+  counter <- counter+1
+  if(counter<=length(mynumbers)){
+    mycondition <- mynumbers[counter]<=5
+  } else {
+    mycondition <- FALSE
+  }
+}
+
+mylist
+
+## b
+##testnum <- 12 ## confirmed 120
+##testnum <- 5 ## confirmed 479001600
+testnum <- 0 ## 1
+testnum
+terryfactor <- 1
+terryfactor
+while (testnum > 1) {
+  terryfactor <- terryfactor * testnum
+  testnum <- testnum - 1
+}
+terryfactor
+
+## c
+
+index <- 1
+ecount <- 0
+#mystring <- "R fever"
+mystring <- "beautiful" 
+#mystring <- "ECCENTRIC" 
+#mystring <- "ElAbOrAte" 
+#mystring <- "eeeeek!"  
+mystring
+result <- mystring
+while(ecount<2 && index<=nchar(mystring)){
+  letter <- substr(mystring, index, index)
+  if (toupper(letter) == "E") {
+    ecount <- ecount + 1
+  }
+  
+  if (ecount == 2) {
+    result <- substr(mystring, 1, index - 1)
+  }
+  
+  index <- index + 1
+}
+result
+
+```
+## Excercise 10.5
+```{r}
+#foo <- matrix(1:12,4,3)
+#foo
+sum(foo)
+row.totals <- rep(NA,times=nrow(foo))
+row.totals
+
+foo <- matrix(1:12,4,3)
+foo
+apply(apply(foo, 1, sort, decreasing=TRUE), 2, prod)
+
+matlist <- list(matrix(c(T,F,T,T),2,2),
+                matrix(c("a","c","b","z","p","q"),3,2),
+                matrix(1:8,2,4))
+lapply(matlist, t)
+matlist
+
+qux <- array(96:1,dim=c(4,4,2,3))
+qux
+apply(qux[,,2,], 3, diag)
+apply(apply(qux[,4,,], 3, dim), 1, sum)
+```
+## Excercise 10.6
+```{r}
+foo <- 5
+bar <- c(2,3,1.1,4,0,4.1,3)
+loop2.result <- rep(NA,length(bar))
+
+condition <- TRUE
+index <- 1
+while(condition) {
+  if (bar[index] == 0) {
+    condition <- FALSE
+  } else {
+    loop2.result[index] <- foo / bar[index]
+  }
+  index <- index + 1
+}
+
+loop3.result = ifelse(is.finite(foo/bar), foo/bar, NA)
+
+mynumbers <- c(4,5,1,2,6,2,4,6,6,2)
+
+mylist <- list()
+for (i in 1:length(mynumbers)) {
+  if (mynumbers[i] <= 5) {
+    mylist[[i]] <- diag(mynumbers[i]) 
+  } else {
+    break;
+  }
+}
+mylist
+
+mylist <- list()
+index <- 1
+repeat {
+  if (index > length(mynumbers)) break
+  
+  if (mynumbers[index] <= 5) {
+    mylist[[index]] <- diag(mynumbers[index])
+    index <- index + 1
+  } else {
+    break;
+  }
+}
+mylist
+
+reslist <- list()
+index <- 1
+
+for (i in 1:length(matlist1)) {
+  for (j in 1:length(matlist2)) {
+    if (ncol(matlist1[[i]]) == nrow(matlist2[[j]])) {
+      reslist[[index]] <- matlist1[[i]] %*% matlist2[[j]]
+    } else {
+      reslist[[index]] <- "not possible"
+    }
+    index <- index + 1
+  }
+}
+reslist
+
+matlist1 <- list(matrix(1:4,2,2),matrix(1:4),matrix(1:8,4,2))
+matlist2 <- matlist1
+
+matlist1 <- list(matrix(1:4,2,2),matrix(2:5,2,2),
+                  matrix(1:16,4,2))
+matlist2 <- list(matrix(1:8,2,4),matrix(10:7,2,2),
+                 matrix(9:2,4,2))
+```
+
+## Exercise 11
+```{r}
+myfib4 <- function(thresh, printme=F) {
+      if (printme == T) {
+            fib.a <- 1
+            fib.b <- 1
+            cat(fib.a, ", ", fib.b, ", ", sep = "")
+            repeat {
+                  temp <- fib.a + fib.b
+                  fib.a <- fib.b
+                  fib.b <- temp
+                  cat(fib.b, ", ", sep = "")
+                  if (fib.b > thresh) {
+                        cat("BREAK NOW...")
+                        break
+                  }
+            }
+      } else{
+            fibseq <- c(1, 1)
+            counter <- 2
+            repeat {
+                  fibseq <- c(fibseq, fibseq[counter - 1] + fibseq[counter])
+                  counter <- counter + 1
+                  if (fibseq[counter] > thresh) {
+                        break
+                  }
+            }
+            print(fibseq)
+      }
+}
+
+#myfib4(thresh=150,printme=TRUE)
+#myfib4(1000000,T)
+myfib4(150,FALSE)
+myfib4(1000000,printme=F)
+
+##11b
+myfac <- function(n) {
+  if (n < 0) return(NaN)
+  
+  result <- 1
+  while (n > 0) {
+    result <- result * n
+    n <- n -1
+  }
+  return (result)
+}
+
+#myfac(5) ## 120
+myfac(12) ## 479001600
+myfac(0)
+
+##11bii
+myfac2 <- function(int) {
+      result <- NaN
+      if (int == 0) {
+            result <- 1
+            return(result)
+      } else if (int < 0) {
+            return(result)
+      } else{
+            while (int > 1) {
+                  if (is.na(result)) {
+                        result <- int
+                        int <- int - 1
+                  } else{
+                        result <- result * int
+                        int <- int - 1
+                  }
+            }
+            return(result)
+      }
+}
+#myfac2(5) ## 120
+#myfac2(12) ## 479001600
+#myfac2(0)
+myfac2(-6) ## function returned NaN
+
+# 11.2
+cint <- function(P, i, t = 12, y, plotit = T, ...) {
+  storeseq.y <- 1:y
+  totalamount <- P * (1 + i / (100 * t)) ^ (t * storeseq.y)
+  if (plotit == T) {
+    plot(type = "s", x = storeseq.y, y = totalamount, ...)
+  } else {
+    return (totalamount)
+  }
+}
+
+#cint(y = 10, P = 5000, i = 4.4, plotit = FALSE)[10]
+cint(y = 20, P = 100, i = 22.9, plotit = TRUE, t = 12,main="Compound interest calc",ylab="Balance (F)", xlab="Year (y)")
+
+compannl <- cint(y = 20, P = 100, i = 22.9, plotit = TRUE, t = 1)
+lines(1:20, compannl, lty=2, type="s")
+legend("topleft", lty=c(1,1), legend=c("mon_int","yearly_int"),col=c("Yellow","Red"))
+
+k1 <- 2
+k2 <- -1
+k3 <- -5
+quadeq <- function(k1,k2,k3){
+      if(any(missing(k1),missing(k2),missing(k3))){
+            return("error, check values of k!")
+      }
+      if(((k2^2)-(4*k1*k3))<0){
+            return("solution not found")
+      }
+      if(((k2^2)-(4*k1*k3))==0){
+            return(-k2/(2*k1))
+      }else{
+            x1<-(-k2-((k2^2)-(4*k1*k3))^0.5)/(2*k1)
+            x2<-(-k2+((k2^2)-(4*k1*k3))^0.5)/(2*k1)
+            return(cat(x1,x2))
+      }
+}
+quadeq
+
+##11b(ii,iii) Code couldnt return values so solution to test dr james,l failed.
+
+# 11.3
+
+foo <- list("a",c("b","c","d","e"),"f",c("g","h","i"))
+foo
+lapply(X = foo, FUN = function(s) {paste(s, "!")})
+
+conc.elements <- function(n) {
+  if (n < 1) {
+    return (1)
+  }
+  
+  return (n * conc.elements (n - 1))
+}
+
+conc.elements (5)
+conc.elements
+
+conc.elements (12)
+conc.elements (0)
+conc.elements (-6)
+
+geolist <- function(x) {
+  g <- function(vec) {
+    return (prod(vec)^(1 / length(vec)))
+  }
+  
+  for(i in 1:length(x)) {
+    if (is.vector(x[[i]])) {
+      x[[i]] <- g(x[[i]])
+    } else if (is.matrix(x[[i]])) {
+      x[[i]] <- apply(X = x[[i]], MARGIN = 1, FUN = g)
+    } else {
+      x[[i]] <- N/A
+    }
+  }
+  return (x)
+}
+
+geolist(list(1:3,matrix(c(3.3,3.2,2.8,2.1,4.6,4.5,3.1,9.4),4,2),
+  matrix(c(3.3,3.2,2.8,2.1,4.6,4.5,3.1,9.4),2,4)))
+
+eolist(list(
+  1:9,
+  matrix(1:9,1,9),
+  matrix(1:9,9,1),
+  matrix(1:9,3,3)))
+
+```
+## Exercise 12
+```{r}
+facnum <- function(number) {
+      result <- 1
+      if (!is.numeric(number)) {
+            return("Not a number!")
+      }
+      if (number < 0) {
+            stop("Number must be positive with this function")
+      }
+      if (number == 0) {
+            return(result)
+      } else {
+            result <- facnum(number - 1) * (number)
+            return(result)
+      }
+}
+facnum(5)
+#facnum(8)
+#facnum(-8)
+
+##b
+progress1 <- function(y, ...) {
+  if (y < 0) {
+    warning("y cannot be is negative")
+    y <- y * -1
+  }
+  
+  if (y == 0) {
+    y <- 1
+  }
+  progress1
+  
+  progress <- txtProgressBar(min = 0, max = y, ...)
+  result <- 1
+  for(n in 1:y) {
+    setTxtProgressBar(progress, n)
+    result <- result * n
+  }
+  
+  return (result)
+}
+result
+progress1
+
+```
+
