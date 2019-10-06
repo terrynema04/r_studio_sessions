@@ -62,7 +62,7 @@ graph2
 ## Exercise 8.1
 ```{r}
 data ("quakes")
-write.table(x = quakes[quakes$mag >= 5,],file = "C:/R- Studio/Finacials/q5.txt", sep = "!", row.names = FALSE)
+write.table(x = quakes[quakes$mag >= 5,],file"C:/R-Studio/Finacials/q5.txt", sep = "!", row.names = FALSE)
 q5dframe <- read.table(file = "C:/R- Studio/Finacials/q5.txt", sep = "!", header = TRUE)
 q5dframe
 
