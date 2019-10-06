@@ -1,0 +1,407 @@
+---
+title: "Exercise_final (Chapter 13-15)"
+author: "TerrenceN"
+date: "October 4, 2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+## Excercise 13.1
+
+```{r}
+#numeric-discrete     # i
+#categorical-ordinal  # ii
+#numeric-continuous   # iii
+#categorical-orinal   # iv
+#categorical-nominal  # v
+#numeric-continuous   # vi
+
+#sample statistic -       #i
+#sample statistic -       #ii
+#population parameter-    #iii
+#parameter-time parameter #iv
+#sample satistic -        #v
+
+```
+
+## Excercise 13.2
+```{r}
+data ("quakes")
+round(mean(quakes$depth>=300),2)
+
+bmean <- mean(quakes$mag[quakes$depth>=300])
+bmean
+bmeadian <- median(quakes$mag[quakes$depth>=300])
+bmeadian
+
+data ("chickwts")
+meanweights <- for (x in levels(chickwts$feed)) {
+      cat("Feed Type is ",x," "," And the mean weight is: ",
+           round(mean(chickwts$weight[chickwts$feed==x],2)),".\n",sep="")
+}
+meanweights
+
+data ("InsectSprays")
+#Variables available in InsectSpary datasets are i) count is numerical-discrete annd spray is categorical-nominal varible
+
+ModeDistrib <-table(InsectSprays$count)
+ModeDistrib
+ModeDistrib[ModeDistrib==max(ModeDistrib)]
+
+Total_insect_count <- tapply(InsectSprays$count, InsectSprays$spray, sum)
+Total_insect_count
+
+atleast5bugs <- for (x in levels(InsectSprays$spray)) {
+      cat("Each Spray Type ",x,",","contains % of agri-units: ",
+          round(mean(InsectSprays$count[InsectSprays$spray == x] >= 5)*100),
+          "% for those with at least 5 bugs.\n",sep="")
+}
+atleast5bugs
+
+atleast5bugnum <- tapply(InsectSprays$count, 
+       InsectSprays$spray, 
+       function(x){round(mean(x>=5)*100,2)})
+atleast5bugnum
+
+```
+
+## Excercise 13.3
+```{r}
+data ("chickwts")
+quantile(chickwts$weight,c(0.1,0.3,0.9))
+
+feedtype <-tapply(chickwts$weight,chickwts$feed,var)
+feedtype[feedtype==max(feedtype)]
+
+data ("quakes")
+Interquartilrange <- IQR(quakes$depth)
+Interquartilrange
+
+fivenumsummary <- summary(quakes$mag[quakes$depth<=400])
+fivenumsummary
+
+depthcat <- cut(quakes$depth,
+              breaks=(seq(min(quakes$depth),max(quakes$depth),length=5)),
+              right=T,
+              include.lowest = T)
+depthcat
+levels(depthcat)
+
+samplemean <- tapply(quakes$mag,depthcat,mean)
+samplemean
+samplesd <- tapply(quakes$mag,depthcat,sd)
+samplesd
+
+eighth_quantile <- tapply(quakes$mag,depthcat,quantile,prob=0.8)
+eighth_quantile
+```
+
+## Excercise 13.4
+```{r}
+weight<-c(55,85,75,42,93,63,58,75,89,67)
+height<-c(161,185,174,154,188,178,170,167,181,178)
+Sex<-c("f","m","m","f","m","m","f","m","m","f")
+cor(weight,height)
+
+data ("mtcars")
+mtcars
+mtcars[1:32,]
+?mtcars
+
+Corecoefgraph <- plot(mtcars[,4],mtcars[,7],xlab="Horsepower",ylab="time on quater mile")
+text(300,20,labels=c("The correlation coeffiecient is\n\n", round(timevshorsepowercor,2)))
+Corecoefgraph
+timevshorsepowercor <-cor(mtcars[,4],mtcars[,7])
+timevshorsepowercor
+
+tranfac<-factor(mtcars[,9],labels=c("auto","manual"))
+tranfac
+
+library(ggplot2)
+scatterplot <- qplot(mtcars[,4],mtcars[,7],main="Plot graph for Manual and Automatic cars from Dataset",
+               xlab="Horsepower",
+               ylab="time on quater mile",
+               color=tranfac,shape=tranfac)
+scatterplot
+
+flagging <-mtcars[,9]==0
+manualcorrelation <- round(cor(mtcars[,4][flagging],mtcars[,7][flagging]),4)
+manualcorrelation
+autocorrelation <- round(cor(mtcars[,4][!flagging],mtcars[,7][!flagging]),4)
+autocorrelation
+#Comment -- There is a growing negative correlation between car horsepower and quater-mile time using transmission mode (auto or manual)
+
+data ("chickwts")
+sunflowerchicks <-chickwts$weight[chickwts$feed == "sunflower"]
+plot(
+      x = sunflowerchicks,
+      y = rep(0, length(sunflowerchicks)),
+      xlab = "Chick weight",
+      xlim=c(min(sunflowerchicks),
+             max(sunflowerchicks)),
+      ylab = "sunflower chick weights",
+      yaxt = "n",
+      bty = "n",
+      cex.axis=1.5,
+      cex.lab=1.5)
+abline(h=0,lty=2)
+
+
+chicksd <- sd(sunflowerchicks)
+chicksd
+#SD is 48.83638
+
+InterQuaReal<- IQR(sunflowerchicks)
+InterQuaReal
+#IQR is 27.5
+
+sunflowerchicksb <- sunflowerchicks[-6]
+
+plot(
+      x = sunflowerchicksb,
+      y = rep(0, length(sunflowerchicksb)),
+      xlab = "weight",
+      xlim=c(min(sunflowerchicksb),
+             max(sunflowerchicksb)),
+      ylab = "sunflower chick weights",
+      yaxt = "n",
+      bty = "n",
+      cex.axis=1.5,
+      cex.lab=1.5)
+abline(h=0,lty=2)
+
+chicksd2 <- sd(sunflowerchicksb)
+chicksd2
+#SD is 38.31473
+
+InterQuaReal2 <- IQR(sunflowerchicksb)
+InterQuaReal2
+# IQR is 21.5
+```
+## Excercise 14.1
+
+```{r}
+library("ggplot2")
+data ("InsectSprays")
+drawhisto<- hist(InsectSprays$count,xlab = "Count of Insect",right=T)
+drawhisto
+
+totalinsectnum<-tapply(InsectSprays$count,InsectSprays$spray,sum)
+totalinsectnum
+
+barplot(totalinsectnum,
+        names.arg = levels(InsectSprays$spray),
+        xlab="Spray Type",
+        ylab = "Total num of insects")
+
+pie(totalinsectnum,
+    labels = levels(InsectSprays$spray),
+    main = "Total of Insects for a Spray Type")
+
+sort.fac <- cut(InsectSprays$count,breaks =c(0,10,20,30))
+sort.fac
+qplot(sort.fac,InsectSprays$count,geom="boxplot",
+        xlab="Insect Count",
+        ylab="Spray Types",
+        col="gray",
+        main ="Insect Count for each spary type")
+
+data ("USArrests")
+?USArrests
+USArrests[1:50,]
+
+qplot(USArrests$UrbanPop,geom="blank",main="USA Urban Population",xlab="Population")+
+    geom_histogram(color="black",fill="red",breaks=seq(0,100),show.legend=TRUE,
+                     closed="right")+
+     geom_vline(mapping=aes(xintercept=c(quantile(USArrests$UrbanPop,0.25),
+                                         quantile(USArrests$UrbanPop,0.50),
+                                         quantile(USArrests$UrbanPop,0.75))),
+                
+          show.legend=TRUE)+
+     scale_linetype_manual(values=c(2,3))+
+     labs(linetype="")
+
+statecrimes<-t(as.matrix(USArrests[,-3]))
+statecrimes 
+     
+barplot(statecrimes,beside=FALSE,horiz=TRUE,las=1,
+        names.arg = state.abb,
+        main="Crimes in each state in USA",
+        args.legend=list(x="bottomright"),
+        legend.text = rownames(statecrimes))
+
+urbancat <- rep(NA, length(USArrests$UrbanPop))
+urbancat
+popurbanmedian <- median(USArrests$UrbanPop)
+popurbanmedian
+
+for (x in 1:length(USArrests$UrbanPop)) {
+      if (USArrests$UrbanPop[x] > popurbanmedian) {
+            urbancat[x] <- 1
+      } else{
+            urbancat[x] <- 0
+      }
+}
+urbancat <- factor(urbancat)
+urbancat
+
+
+newusarrests <- USArrests[-3]
+newusarrests
+newusarrests$urbancat <- urbancat
+newusarrests
+
+#install.packages("GGally")
+#library("GGally")
+allscattergrphs<- ggpairs(newusarrests, mapping = aes(col = urbancat),axisLabels = "internal")
+allscattergrphs
+
+data ("quakes")
+magfactor <-quantile(quakes$mag,c(1/3,2/3))
+magfactor
+finalmagvec <-cut(quakes$mag,
+            breaks=c(min(quakes$mag),
+                     magfactor[1],
+                     magfactor[2],
+                     #magfactor[3]))
+                     max(quakes$mag)))
+finalmagvec
+
+plot(
+      quakes$long,
+      quakes$lat,
+      pch = (1:3)[finalmagvec],
+      col = (1:3)[finalmagvec],
+      main = "Pot diagram showing Latitude and longitude from new vector",
+      ylab = "Latitude",
+      xlab = "Longitude"
+)
+
+legend(
+      "bottomleft",
+      legend = c("Min Q-1st_third Q", "1st_third Q-2nd_third Q", "2nd_third Q-Max Q"),
+      col = 1:3,
+      pch = 1:3,
+      title="Key-Quantiles"
+)
+```
+
+##  Exercise 15.1
+```{r}
+ace <- (4/52)
+ace
+
+fourspades<- (1/52)
+fourspades
+
+aclub <- (13/52) 3 #event Pr(A)
+aclub
+
+bred <- (26/52) # event Pr(B)
+bred
+#Pr(A|B) = Pr(A)---Then the  probability is 1/4 and the two events independent
+
+clubunreplaced <- (13/51) # the frist card drawn removed hence deck remains with 51 and hence the 
+                            #events become depended on each other since Pr(B|A) != Pr(B)
+clubunreplaced
+
+facecard <- (12/52) # each set has 3 face card and multiply by 4 sets--12 cards
+facecard
+
+blackcard <- (26/52) # 26 black card in a deck
+blackcard
+
+blackfacedcard <- (facecard*blackcard) ## Events are  not mutually exclusive since the probability is positive and not equal to zero.
+blackfacedcard
+
+```
+## Exercise 15.2
+```{r}
+i <-  "realization of a discrete random variable"
+ii <- "pure random variable from a discrete quantity"
+iii <- "realization of a continuous random variable"
+iv <- "continuous random variable"
+v <- "realization of a discrete random variable"
+vi <- "random variable - Continuous quantity"
+
+
+variables <-c(1,2,3,4,5)
+variables
+Prvar <- (1-(0.1+0.13+0.21+0.15))
+Prvar
+varprob <-c(0.1,0.13,0.21,0.41,0.15)
+varprob
+
+cumlprob <- cumsum(varprob)
+cumlprob
+
+meanprob <-sum(variables*varprob)
+meanprob
+
+varianceprob <- sum(((variables-meanprob)^2)*varprob)
+varianceprob
+
+atleast3stars <-sum(varprob[1:3])
+atleast3stars
+
+probvisuals <- barplot(varprob,
+                      names.arg =variables,
+                      space=0,
+                      #col = "red"
+                      main="Probability of Stars given to any movie appearance",
+                      xlab="Movie Stars",
+                      ylab="Probability of Apperance")
+probvisuals
+
+Descr_graph <-  "The probability distribution os the graph  is an asymmetric, left skew unimodal appeareance"
+w <-  50
+w
+funcf<- function(w) {
+          #if (40<=w<=65)  #(w-40)/625 
+             #if 65<w<=90  #(90-w)/625
+          #else
+            #w == 0
+                   #0 if anything else
+      sol <- rep(0, length(w))
+      sol
+      lower_w <-  w >= 40 & w <= 65
+      lower_w
+      upper_w <-  w > 65 & w < 90
+
+      sol[lower_w] <- (w[lower_w] - 40) / 625
+      sol[upper_w ] <- (90 - w[upper_w ]) / 625
+
+      return(sol)
+}
+funcf
+
+funcf(50) # testing if w is 50 (#if (40<=w<=65)
+
+funcF <- function(w) {
+  
+      answer <- rep(0, length(w))
+      w.lower <- w >= 40 & w <= 65
+      w.upper <- w > 65 & w <= 90
+      w.uppest <- w > 90
+
+      answer[w.lower] <- (w[w.lower] ^ 2 - 80 * w[w.lower] + 1600) / 1250
+      answer[w.upper] <- (180 * w[w.upper] - w[w.upper] ^ 2 - 6850) / 1250
+      answer[w.uppest] <- 1
+
+      return(answer)
+}
+#funcF()
+funcF(55.2)
+
+abc <- 1 - funcF(60)
+abc
+
+xyz <- funcF(76.89) - funcF(60.3)
+xyz 
+
+Qi <-  "Symmetric and Binomial distribution"
+Qii <- "Assymetrically skewed and trimodal distribution"
+Qiii <- "Symmetrical and Unimodal distribution graph"
+Qiv <-  " A Unimodal skewed distribution"
+```
+
