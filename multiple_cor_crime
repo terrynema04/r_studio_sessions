@@ -1,0 +1,60 @@
+---
+title: "data_crime_multiple_lr"
+author: "Terrence"
+date: '2019 11 26 '
+output: html_document
+---
+
+```{r}
+library(readxl)
+mrl05 <- read_excel("C:/Users/hallym/Desktop/mrl05.xlsx")
+mrl05
+
+mydata <- mrl05 [,c("X1","X2","X3","X4","X5","X6","X7")]
+mydata
+print(head(mydata))
+summary (mydata)
+
+plot(mydata)
+cordatfrm <- data.frame (mydata)
+cordatfrm
+cor(cordatfrm)
+## Models for te varius variables
+
+modelx1 <- lm(X1~X2+X3+X4+X5+X6+X7,data = mydata)
+modelx1
+modelx2 <- lm(X2~X1+X3+X4+X5+X6+X7,data = mydata)
+modelx2
+modelx3 <- lm(X3~X1+X2+X4+X5+X6+X7,data = mydata)
+modelx3
+modelx4 <- lm(X4~X2+X3+X1+X5+X6+X7,data = mydata)
+modelx4
+modelx5 <- lm(X5~X2+X3+X4+X1+X6+X7,data = mydata)
+modelx5
+modelx6 <- lm(X6~X2+X3+X4+X5+X1+X7,data = mydata)
+modelx6
+modelx7 <- lm(X7~X2+X3+X4+X5+X6+X1,data = mydata)
+modelx7
+
+## summary of the  models and coefficients
+summary (modelx1)
+summary (modelx2)
+summary (modelx3)
+summary (modelx4)
+summary (modelx5)
+summary (modelx6)
+summary (modelx7)
+cor(cordatfrm)
+##part 1 -from the models simmulated above, the variables
+## (X2,X4,X5,X6 and X7)
+
+##pairs function can plot multiple numeric or integer variables on a single plot to look for correlations among the variables.
+pairs(data=mydata, ~ X1+X2+X3+X4+X5+X6+X7)
+
+library(psych)
+corr.test(mydata,
+          use    = "pairwise",
+          method = "kendall", ##Kendall correlation is considered a nonparametric analysis.  It is a rank-based test that does not require assumptions about the distribution of the data.  Variables can be interval/ratio or ordinal
+          adjust = "none")
+```
+
